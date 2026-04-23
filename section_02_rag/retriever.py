@@ -3,7 +3,7 @@ import json
 import faiss
 import numpy as np
 from typing import List, Dict, Tuple
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -14,33 +14,25 @@ METADATA_PATH = os.path.join(VECTOR_STORE_DIR, "metadata.json")
 
 class Retriever:
     def __init__(self):
-        self.mock_mode = os.getenv("MOCK_MODE", "False").lower() == "true"
-        if not self.mock_mode:
-            self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self.embedding_model = "text-embedding-3-small"
+        print("Initializing Local Retriever (all-MiniLM-L6-v2)...")
+        # Load local embedding model
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
         self.index = None
         self.metadata = []
 
     def get_embedding(self, text: str) -> List[float]:
-        """Get embedding for a piece of text (Simulated if MOCK_MODE=True)."""
-        if self.mock_mode:
-            # Return a deterministic random vector based on hash of text for consistent retrieval
-            import hashlib
-            seed = int(hashlib.md5(text.encode()).hexdigest(), 16) % (2**32)
-            np.random.seed(seed)
-            return np.random.rand(1536).tolist()
-            
+        """Get embedding for a piece of text using local sentence-transformers."""
         try:
             text = text.replace("\n", " ")
-            response = self.client.embeddings.create(input=[text], model=self.embedding_model)
-            return response.data[0].embedding
+            embedding = self.model.encode(text)
+            return embedding.tolist()
         except Exception as e:
             print(f"Error getting embedding: {e}")
             return []
 
     def build_index(self, chunks: List[Dict]):
         """Build and save FAISS index from chunks."""
-        print("Building FAISS index...")
+        print("Building FAISS index using local embeddings...")
         embeddings = []
         self.metadata = []
 
@@ -55,7 +47,7 @@ class Retriever:
             return
 
         embeddings_np = np.array(embeddings).astype('float32')
-        # L2 normalization for cosine similarity (FAISS Inner Product + Normalization)
+        # L2 normalization for cosine similarity
         faiss.normalize_L2(embeddings_np)
         
         dimension = len(embeddings[0])
@@ -63,6 +55,9 @@ class Retriever:
         self.index.add(embeddings_np)
 
         # Save index and metadata
+        if not os.path.exists(VECTOR_STORE_DIR):
+            os.makedirs(VECTOR_STORE_DIR)
+            
         faiss.write_index(self.index, INDEX_PATH)
         with open(METADATA_PATH, "w") as f:
             json.dump(self.metadata, f)
@@ -75,10 +70,10 @@ class Retriever:
                 self.index = faiss.read_index(INDEX_PATH)
                 with open(METADATA_PATH, "r") as f:
                     self.metadata = json.load(f)
-                print("Index and metadata loaded successfully.")
+                print("Local index and metadata loaded successfully.")
                 return True
             else:
-                print("Index files not found.")
+                print("Index files not found. You may need to rebuild the index.")
                 return False
         except Exception as e:
             print(f"Error loading index: {e}")
@@ -107,7 +102,6 @@ class Retriever:
         return results
 
 if __name__ == "__main__":
-    # If run directly, build index from chunks.json
     retriever = Retriever()
     CHUNKS_FILE = os.path.join(VECTOR_STORE_DIR, "chunks.json")
     if os.path.exists(CHUNKS_FILE):

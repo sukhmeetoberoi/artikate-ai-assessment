@@ -1,70 +1,86 @@
-import json
-import random
 import os
+import json
+import time
+from groq import Groq
+from dotenv import load_dotenv
+from typing import List, Dict
+
+load_dotenv()
 
 DATA_DIR = "section_03_classifier/data"
+TRAIN_FILE = os.path.join(DATA_DIR, "train.json")
+CATEGORIES = ["billing", "technical_issue", "feature_request", "complaint", "other"]
 
-def generate_synthetic_data(num_samples=200):
-    """Generate synthetic data for support ticket classification."""
-    if not os.path.exists(DATA_DIR):
-        os.makedirs(DATA_DIR)
+class DataGenerator:
+    def __init__(self):
+        self.client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        self.model = "llama-3.1-8b-instant"
 
-    categories = ["Technical Support", "Billing", "Feature Request", "Account Access"]
-    
-    templates = {
-        "Technical Support": [
-            "My app keeps crashing when I click the submit button.",
-            "I'm getting a 500 error on the dashboard.",
-            "The integration with Slack is not working.",
-            "Slow performance on the mobile app.",
-            "Database connection timeout occurring frequently."
-        ],
-        "Billing": [
-            "I was double charged for my subscription this month.",
-            "Where can I download my latest invoice?",
-            "I want to upgrade my plan to Enterprise.",
-            "My payment method was rejected.",
-            "How do I cancel my trial?"
-        ],
-        "Feature Request": [
-            "Can you add a dark mode to the interface?",
-            "I would love to see a bulk export feature.",
-            "It would be great if we could tag other users.",
-            "Please support multi-factor authentication.",
-            "Add more themes to the profile page."
-        ],
-        "Account Access": [
-            "I forgot my password and can't reset it.",
-            "I'm locked out of my account after too many attempts.",
-            "How do I change the primary email on my profile?",
-            "I can't log in using my Google account.",
-            "My account has been suspended for no reason."
-        ]
-    }
+    def generate_batch(self, category: str, count: int) -> List[Dict]:
+        """Generate a batch of synthetic support tickets for a specific category."""
+        prompt = (
+            f"Generate {count} unique examples of customer support tickets for the category: '{category}'. "
+            f"The tickets should be realistic, varying in length and tone. "
+            f"Return ONLY a JSON list of strings, nothing else. "
+            f"Example format: [\"ticket text 1\", \"ticket text 2\"]"
+        )
 
-    data = []
-    for _ in range(num_samples):
-        cat = random.choice(categories)
-        text = random.choice(templates[cat])
-        # Add some noise/variation
-        if random.random() > 0.5:
-            text = text.lower()
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.8,
+                response_format={"type": "json_object"} if "json_object" in str(self.model) else None
+            )
+            content = response.choices[0].message.content
+            # Handle potential Groq response formatting
+            if "```json" in content:
+                content = content.split("```json")[1].split("```")[0].strip()
+            
+            data = json.loads(content)
+            # Some models return an object with a key, some return the list directly
+            if isinstance(data, dict):
+                for val in data.values():
+                    if isinstance(val, list):
+                        return [{"text": text, "label": category} for text in val[:count]]
+            elif isinstance(data, list):
+                return [{"text": text, "label": category} for text in data[:count]]
+            
+            return []
+        except Exception as e:
+            print(f"Error generating batch for {category}: {e}")
+            return []
+
+    def run(self):
+        """Generate 1000 examples (200 per category)."""
+        if not os.path.exists(DATA_DIR):
+            os.makedirs(DATA_DIR)
+
+        all_data = []
+        target_per_category = 200
+        batch_size = 20
+
+        print(f"--- Starting Synthetic Data Generation ---")
+        for category in CATEGORIES:
+            print(f"Generating data for category: {category}")
+            category_data = []
+            while len(category_data) < target_per_category:
+                batch = self.generate_batch(category, batch_size)
+                category_data.extend(batch)
+                
+                if len(category_data) % 50 == 0 or len(category_data) == target_per_category:
+                    print(f"  Progress for {category}: {len(category_data)}/200")
+                
+                # Small sleep to avoid rate limits
+                time.sleep(1)
+            
+            all_data.extend(category_data[:target_per_category])
+
+        with open(TRAIN_FILE, "w") as f:
+            json.dump(all_data, f, indent=2)
         
-        data.append({"text": text, "label": cat})
-
-    # Split into train and test
-    random.shuffle(data)
-    split = int(0.8 * num_samples)
-    train_data = data[:split]
-    test_data = data[split:]
-
-    with open(os.path.join(DATA_DIR, "train.json"), "w") as f:
-        json.dump(train_data, f, indent=2)
-    
-    with open(os.path.join(DATA_DIR, "test.json"), "w") as f:
-        json.dump(test_data, f, indent=2)
-
-    print(f"Generated {len(train_data)} training samples and {len(test_data)} test samples.")
+        print(f"Successfully saved 1000 examples to {TRAIN_FILE}")
 
 if __name__ == "__main__":
-    generate_synthetic_data()
+    generator = DataGenerator()
+    generator.run()

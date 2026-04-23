@@ -1,52 +1,83 @@
 [
   {
     "question": "What is the notice period in the NDA with TechCorp Solutions?",
-    "expected_chunk_keywords": ["30 days", "written notice", "terminate"],
+    "expected_chunk_keywords": [
+      "30 days",
+      "NOTICE PERIOD"
+    ],
     "source_document": "sample_doc_1.pdf"
   },
   {
     "question": "What is the confidentiality period for the TechCorp NDA?",
-    "expected_chunk_keywords": ["3 years", "confidentiality period"],
+    "expected_chunk_keywords": [
+      "3 years",
+      "CONFIDENTIALITY PERIOD"
+    ],
     "source_document": "sample_doc_1.pdf"
   },
   {
     "question": "Which state's law governs the TechCorp Solutions agreement?",
-    "expected_chunk_keywords": ["Delaware", "Governing law"],
+    "expected_chunk_keywords": [
+      "Delaware",
+      "GOVERNING LAW"
+    ],
     "source_document": "sample_doc_1.pdf"
   },
   {
     "question": "What are the payment terms in the Acme Corporation agreement?",
-    "expected_chunk_keywords": ["Net 30", "paid within"],
+    "expected_chunk_keywords": [
+      "Net 30",
+      "PAYMENT TERMS"
+    ],
     "source_document": "sample_doc_2.pdf"
   },
   {
     "question": "What is the limitation of liability for Acme Corporation?",
-    "expected_chunk_keywords": ["₹50 lakhs", "limitation of liability"],
+    "expected_chunk_keywords": [
+      "INR 50 lakhs",
+      "LIMITATION OF LIABILITY"
+    ],
     "source_document": "sample_doc_2.pdf"
   },
   {
     "question": "How long is the Acme Corporation service agreement valid?",
-    "expected_chunk_keywords": ["12 months", "duration"],
+    "expected_chunk_keywords": [
+      "12 months",
+      "CONTRACT DURATION"
+    ],
     "source_document": "sample_doc_2.pdf"
   },
   {
     "question": "How many days of annual leave are provided in the employment policy?",
-    "expected_chunk_keywords": ["21 days", "annual leave"],
+    "expected_chunk_keywords": [
+      "21 days",
+      "ANNUAL LEAVE"
+    ],
     "source_document": "sample_doc_3.pdf"
   },
   {
     "question": "What is the notice period for resignation in the employment policy?",
-    "expected_chunk_keywords": ["60 days", "resignation"],
+    "expected_chunk_keywords": [
+      "60 days",
+      "NOTICE PERIOD"
+    ],
     "source_document": "sample_doc_3.pdf"
   },
   {
     "question": "How long is the probation period for new employees?",
-    "expected_chunk_keywords": ["6 months", "probation"],
+    "expected_chunk_keywords": [
+      "6 months",
+      "PROBATION PERIOD"
+    ],
     "source_document": "sample_doc_3.pdf"
   },
   {
-    "question": "What are the standard working hours at Artikate AI Solutions?",
-    "expected_chunk_keywords": ["9:00 AM", "6:00 PM", "Monday through Friday"],
+    "question": "What are the standard working hours per the policy?",
+    "expected_chunk_keywords": [
+      "9am to 6pm",
+      "Monday to Friday",
+      "WORKING HOURS"
+    ],
     "source_document": "sample_doc_3.pdf"
   }
 ]

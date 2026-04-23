@@ -1,162 +1,106 @@
 [
-  {
-    "text": "where can i download my latest invoice?",
-    "label": "Billing"
-  },
-  {
-    "text": "my app keeps crashing when i click the submit button.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "I would love to see a bulk export feature.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
-  },
-  {
-    "text": "i want to upgrade my plan to enterprise.",
-    "label": "Billing"
-  },
-  {
-    "text": "I would love to see a bulk export feature.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "Can you add a dark mode to the interface?",
-    "label": "Feature Request"
-  },
-  {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
-  },
-  {
-    "text": "i'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "Where can I download my latest invoice?",
-    "label": "Billing"
-  },
-  {
-    "text": "My account has been suspended for no reason.",
-    "label": "Account Access"
-  },
-  {
-    "text": "database connection timeout occurring frequently.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "Slow performance on the mobile app.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
-  },
-  {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
-  },
-  {
-    "text": "It would be great if we could tag other users.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "my payment method was rejected.",
-    "label": "Billing"
-  },
-  {
-    "text": "The integration with Slack is not working.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
-  },
-  {
-    "text": "i forgot my password and can't reset it.",
-    "label": "Account Access"
-  },
-  {
-    "text": "Database connection timeout occurring frequently.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
-  },
-  {
-    "text": "i can't log in using my google account.",
-    "label": "Account Access"
-  },
-  {
-    "text": "Where can I download my latest invoice?",
-    "label": "Billing"
-  },
-  {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
-  },
-  {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "My app keeps crashing when I click the submit button.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "Database connection timeout occurring frequently.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "i can't log in using my google account.",
-    "label": "Account Access"
-  },
-  {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "i want to upgrade my plan to enterprise.",
-    "label": "Billing"
-  },
-  {
-    "text": "my payment method was rejected.",
-    "label": "Billing"
-  },
-  {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
-  },
-  {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
-  },
-  {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
-  },
-  {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
-  },
-  {
-    "text": "My account has been suspended for no reason.",
-    "label": "Account Access"
-  }
+  {"text": "I was charged twice this month for my subscription", "label": "billing"},
+  {"text": "Why did my monthly fee increase without notice?", "label": "billing"},
+  {"text": "I need a refund for the duplicate transaction yesterday", "label": "billing"},
+  {"text": "My credit card was declined but I see a pending charge", "label": "billing"},
+  {"text": "Can I get an invoice for my last three payments?", "label": "billing"},
+  {"text": "I want to update my billing address and payment method", "label": "billing"},
+  {"text": "Where can I download the receipt for my annual plan?", "label": "billing"},
+  {"text": "The discount code I used didn't apply to my checkout", "label": "billing"},
+  {"text": "My account is suspended despite having a valid card", "label": "billing"},
+  {"text": "I was billed for a pro plan but I am on the free tier", "label": "billing"},
+  {"text": "Is there a way to pay using PayPal instead of credit card?", "label": "billing"},
+  {"text": "I need to cancel my subscription and stop future charges", "label": "billing"},
+  {"text": "The amount on my bank statement doesn't match the invoice", "label": "billing"},
+  {"text": "Can I change my billing cycle from monthly to yearly?", "label": "billing"},
+  {"text": "Why am I being charged sales tax in this region?", "label": "billing"},
+  {"text": "I accidentally bought the wrong license, please help", "label": "billing"},
+  {"text": "My premium trial ended but I was charged immediately", "label": "billing"},
+  {"text": "Can you provide a breakdown of the usage-based fees?", "label": "billing"},
+  {"text": "I am a non-profit, how do I apply for the tax exemption?", "label": "billing"},
+  {"text": "How do I remove my old credit card from the system?", "label": "billing"},
+
+  {"text": "App crashes every time I try to upload a file", "label": "technical_issue"},
+  {"text": "The login page is not loading on my Chrome browser", "label": "technical_issue"},
+  {"text": "I keep getting a 500 internal server error on the dashboard", "label": "technical_issue"},
+  {"text": "The mobile app is stuck on the splash screen", "label": "technical_issue"},
+  {"text": "My data is not syncing between my phone and laptop", "label": "technical_issue"},
+  {"text": "The reset password link I received is expired or invalid", "label": "technical_issue"},
+  {"text": "I cannot see the 'Submit' button on the final step", "label": "technical_issue"},
+  {"text": "The search function returns no results even for valid terms", "label": "technical_issue"},
+  {"text": "Images are not rendering in the gallery view", "label": "technical_issue"},
+  {"text": "I am not receiving the 2FA code on my mobile number", "label": "technical_issue"},
+  {"text": "The API returns an authentication error with a valid token", "label": "technical_issue"},
+  {"text": "The export to PDF feature is giving a corrupted file", "label": "technical_issue"},
+  {"text": "My account shows 'Access Denied' for my own projects", "label": "technical_issue"},
+  {"text": "The real-time updates are lagging by several minutes", "label": "technical_issue"},
+  {"text": "I found a bug where deleting a folder deletes everything", "label": "technical_issue"},
+  {"text": "The application is extremely slow during peak hours", "label": "technical_issue"},
+  {"text": "My profile picture won't save no matter the format", "label": "technical_issue"},
+  {"text": "The integration with Slack is failing to send messages", "label": "technical_issue"},
+  {"text": "I can't invite new team members to my workspace", "label": "technical_issue"},
+  {"text": "The font rendering is broken on Safari for Mac", "label": "technical_issue"},
+
+  {"text": "Please add dark mode to the dashboard", "label": "feature_request"},
+  {"text": "It would be great to have a bulk edit option for tasks", "label": "feature_request"},
+  {"text": "Can we get an integration with Microsoft Teams?", "label": "feature_request"},
+  {"text": "I'd like to see a calendar view for my project timeline", "label": "feature_request"},
+  {"text": "Please allow us to customize the colors of the labels", "label": "feature_request"},
+  {"text": "Is it possible to add a voice-to-text feature?", "label": "feature_request"},
+  {"text": "We need the ability to export data in CSV format", "label": "feature_request"},
+  {"text": "Can you add a 'undo' button for the last action?", "label": "feature_request"},
+  {"text": "I want a way to tag colleagues in the comments section", "label": "feature_request"},
+  {"text": "Please implement a recurring task feature", "label": "feature_request"},
+  {"text": "Can we have a public API to build our own tools?", "label": "feature_request"},
+  {"text": "I'd like to be able to set custom reminders for deadlines", "label": "feature_request"},
+  {"text": "Please add a folder structure for better organization", "label": "feature_request"},
+  {"text": "Would love to have a mobile widget for quick access", "label": "feature_request"},
+  {"text": "Can you provide more templates for different industries?", "label": "feature_request"},
+  {"text": "It would be useful to have a time-tracking feature built-in", "label": "feature_request"},
+  {"text": "Please allow us to change the default language of the app", "label": "feature_request"},
+  {"text": "I want to be able to lock certain files from being edited", "label": "feature_request"},
+  {"text": "Can we get a summary report sent to our email weekly?", "label": "feature_request"},
+  {"text": "Please add support for Markdown in the text editor", "label": "feature_request"},
+
+  {"text": "Your customer service kept me waiting for 2 hours", "label": "complaint"},
+  {"text": "The latest update completely ruined the user interface", "label": "complaint"},
+  {"text": "I've sent three emails and no one has replied yet", "label": "complaint"},
+  {"text": "This app is way too expensive for the few features it has", "label": "complaint"},
+  {"text": "I am very disappointed with the recent service outage", "label": "complaint"},
+  {"text": "The representative I spoke to was very rude and unhelpful", "label": "complaint"},
+  {"text": "You promised this feature months ago and it's still not here", "label": "complaint"},
+  {"text": "The documentation is outdated and very confusing", "label": "complaint"},
+  {"text": "I've had nothing but problems since I signed up", "label": "complaint"},
+  {"text": "This is the worst software I have ever used in my life", "label": "complaint"},
+  {"text": "Stop sending me so many marketing emails, it's annoying", "label": "complaint"},
+  {"text": "Your cancellation process is intentionally difficult", "label": "complaint"},
+  {"text": "The refund I was promised still hasn't arrived", "label": "complaint"},
+  {"text": "I feel cheated by the hidden fees in your contract", "label": "complaint"},
+  {"text": "The system deleted my data and I am beyond frustrated", "label": "complaint"},
+  {"text": "I am going to switch to your competitor if this isn't fixed", "label": "complaint"},
+  {"text": "The mobile app feels like an afterthought, it's terrible", "label": "complaint"},
+  {"text": "You charged me after I cancelled my account!", "label": "complaint"},
+  {"text": "The search function is useless, fix it immediately", "label": "complaint"},
+  {"text": "I am extremely unhappy with the quality of support", "label": "complaint"},
+
+  {"text": "What are your office hours?", "label": "other"},
+  {"text": "How do I change my profile name?", "label": "other"},
+  {"text": "Do you have any job openings in the engineering team?", "label": "other"},
+  {"text": "Where can I find your privacy policy and terms of use?", "label": "other"},
+  {"text": "I'm interested in a partnership, who should I contact?", "label": "other"},
+  {"text": "Can you send me a link to your latest webinar?", "label": "other"},
+  {"text": "How do I delete my account permanently?", "label": "other"},
+  {"text": "Where is your company headquartered?", "label": "other"},
+  {"text": "I forgot my username, how can I retrieve it?", "label": "other"},
+  {"text": "Do you offer any discounts for students or teachers?", "label": "other"},
+  {"text": "How can I update my notification settings?", "label": "other"},
+  {"text": "Is your software compliant with GDPR regulations?", "label": "other"},
+  {"text": "Can I use your logo on my personal website?", "label": "other"},
+  {"text": "I'd like to submit a guest post for your blog", "label": "other"},
+  {"text": "Where can I find the version history of the app?", "label": "other"},
+  {"text": "Do you have a physical office I can visit in London?", "label": "other"},
+  {"text": "How do I verify my email address?", "label": "other"},
+  {"text": "What is the meaning of the status icons in the list?", "label": "other"},
+  {"text": "I want to nominate your app for an award", "label": "other"},
+  {"text": "Just wanted to say thanks for the great tool!", "label": "other"}
 ]

@@ -1,642 +1,4002 @@
 [
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I've been charged for a subscription I cancelled 10 days ago. Can you reverse the charge?",
+    "label": "billing"
   },
   {
-    "text": "i forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I've tried to pay my bill online but the payment keeps getting declined. Please help.",
+    "label": "billing"
   },
   {
-    "text": "I'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Can you confirm my billing address on file? I'm getting errors when trying to update my details.",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "Why did my credit card company reject my payment for the 3rd time? Is there an issue with the payment gateway?",
+    "label": "billing"
   },
   {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "I just noticed that I'm being charged for services I never signed up for. Please investigate and refund me.",
+    "label": "billing"
   },
   {
-    "text": "It would be great if we could tag other users.",
-    "label": "Feature Request"
+    "text": "I want to change my payment method from bank transfer to credit card. Can you assist me?",
+    "label": "billing"
   },
   {
-    "text": "My payment method was rejected.",
-    "label": "Billing"
+    "text": "Can you explain why my bill is higher this month compared to last month? I want to know what changed.",
+    "label": "billing"
   },
   {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "I'm trying to set up recurring payments but the system isn't accepting my credit card details. Help.",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I've been charged a late fee even though I paid my bill on time. Can you waive it?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "Why can't I view my invoice online? I need to see the payment details for accounting purposes.",
+    "label": "billing"
   },
   {
-    "text": "Slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "I'm moving to a new address and need to update my billing information. Can you guide me through the process?",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "Can you transfer my billing to a different account? I'm no longer responsible for the original account.",
+    "label": "billing"
   },
   {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I've tried calling the phone number on the invoice but it's not working. Can I get a refund?",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "Can you confirm that my subscription has been cancelled? I want to make sure I'm not being billed anymore.",
+    "label": "billing"
   },
   {
-    "text": "i'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Why did my billing period change without my knowledge? I didn't authorize the change.",
+    "label": "billing"
   },
   {
-    "text": "It would be great if we could tag other users.",
-    "label": "Feature Request"
+    "text": "Can you provide a breakdown of the costs on my invoice? I want to understand what I'm being charged for.",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I want to upgrade my plan but I don't want to pay more upfront. Can you offer a payment plan?",
+    "label": "billing"
   },
   {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I've been charged a processing fee even though I've never used the service before. Can you explain?",
+    "label": "billing"
   },
   {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "Can you send me a copy of my cancelled invoice? I need it for tax purposes.",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I'm trying to dispute a charge on my credit card but need a copy of the invoice from your company. Can you provide it?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm trying to pay my bill online but the site says payment failed, please help.",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've been charged twice for my subscription, can you refund the extra amount?",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "My credit card got declined for the last payment, is there an alternative payment method?",
+    "label": "billing"
   },
   {
-    "text": "How do I change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I cancelled my service 3 months ago but still receiving bills, please stop sending them.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "I'm getting an error message when trying to download my invoice, please assist.",
+    "label": "billing"
   },
   {
-    "text": "Can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "Can I pay my bill over the phone or do I need to do it online?",
+    "label": "billing"
   },
   {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
+    "text": "I received an unexpected charge on my bill for $10, what is it for?",
+    "label": "billing"
   },
   {
-    "text": "How do I change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I changed my address but the bill still has my old address on it.",
+    "label": "billing"
   },
   {
-    "text": "The integration with Slack is not working.",
-    "label": "Technical Support"
+    "text": "The amount on my bill is incorrect, can you please review and correct it?",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I'm having trouble logging in to my account to pay my bill, please help.",
+    "label": "billing"
   },
   {
-    "text": "I would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "Can I set up a payment plan to pay off my past due balance?",
+    "label": "billing"
   },
   {
-    "text": "i can't log in using my google account.",
-    "label": "Account Access"
+    "text": "I'm trying to cancel my subscription but the site is saying my account is inactive.",
+    "label": "billing"
   },
   {
-    "text": "my app keeps crashing when i click the submit button.",
-    "label": "Technical Support"
+    "text": "I paid my bill in full but still received a late fee, please remove it.",
+    "label": "billing"
   },
   {
-    "text": "Please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "I'm trying to change my payment method to a different credit card, how do I do it?",
+    "label": "billing"
   },
   {
-    "text": "My account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "I received a notification that my bill is overdue but I just paid it yesterday.",
+    "label": "billing"
   },
   {
-    "text": "Where can I download my latest invoice?",
-    "label": "Billing"
+    "text": "I'm trying to dispute a charge on my bill, please assist with the process.",
+    "label": "billing"
   },
   {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I'm having trouble accessing my billing information online, please help.",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "Can I get a breakdown of my bill showing what each charge is for?",
+    "label": "billing"
   },
   {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
+    "text": "I'm trying to set up automatic payments but the site says I need to contact support.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "I'm trying to pay my bill using a gift card, is that an option?",
+    "label": "billing"
   },
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I'm trying to upgrade my plan but I'm getting an error message saying 'insufficient funds'. However, I've already paid my subscription. Can you help me resolve this?",
+    "label": "billing"
   },
   {
-    "text": "How do I change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've been charged an extra $50 on my latest invoice. Can you please explain what this is for?",
+    "label": "billing"
   },
   {
-    "text": "i forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I'm having trouble accessing my account due to a 'payment pending' status. How do I clear this?",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "I've noticed that my payment dates are being adjusted and I'm not being notified. Can this be changed?",
+    "label": "billing"
   },
   {
-    "text": "i'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "I'm trying to cancel my subscription but the system won't let me. Can someone assist me?",
+    "label": "billing"
   },
   {
-    "text": "I can't log in using my Google account.",
-    "label": "Account Access"
+    "text": "I was asked to provide a copy of my ID for my first payment. However, the payment went through successfully and I didn't receive a confirmation email. Can you help?",
+    "label": "billing"
   },
   {
-    "text": "i was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I've sent three payments but still haven't received my activation code for my new service. What's going on?",
+    "label": "billing"
   },
   {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I'm experiencing issues with my payment method and I want to use a different method. Can you please update it?",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I'm trying to dispute a charge of $120 on my account. Can you please assist me with this?",
+    "label": "billing"
   },
   {
-    "text": "i'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "Can you remove my old payment method since I've updated my credit card information?",
+    "label": "billing"
   },
   {
-    "text": "My account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "My payment was rejected due to a 'high-risk transaction' error. What does this mean?",
+    "label": "billing"
   },
   {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "I'm getting a message saying I owe $200 but I've already paid my subscription for the month. Can you investigate this?",
+    "label": "billing"
   },
   {
-    "text": "i was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm trying to use a coupon code but it's not being applied. Can you please help me with this?",
+    "label": "billing"
   },
   {
-    "text": "i can't log in using my google account.",
-    "label": "Account Access"
+    "text": "I've changed my billing address but the change isn't being reflected in my account. Can you update it?",
+    "label": "billing"
   },
   {
-    "text": "i'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "I'm trying to upgrade to a premium plan but I'm being asked for additional payment information. Can you please clarify?",
+    "label": "billing"
   },
   {
-    "text": "How do I change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've been charged a 'setup fee' but I'm not sure what this is for. Can you explain it to me?",
+    "label": "billing"
   },
   {
-    "text": "I would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I'm trying to downgrade my plan but I'm being asked to pay a 'transition fee'. Is this normal?",
+    "label": "billing"
   },
   {
-    "text": "i was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I've lost my password and am unable to access my account to view my recent payments. Can you help me?",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I've sent in a payment but it's been declined. Can you please process it again?",
+    "label": "billing"
   },
   {
-    "text": "I'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "Can you provide me with my payment history for the past 6 months?",
+    "label": "billing"
   },
   {
-    "text": "My payment method was rejected.",
-    "label": "Billing"
+    "text": "My monthly subscription was charged twice, please refund the extra amount.",
+    "label": "billing"
   },
   {
-    "text": "add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I've been getting incorrect invoices since my rate plan changed, can you fix this?",
+    "label": "billing"
   },
   {
-    "text": "How do I change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "Why was my payment declined when I've been paying on time for years?",
+    "label": "billing"
   },
   {
-    "text": "Can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I'm trying to cancel my service but the website keeps saying my payment method is invalid.",
+    "label": "billing"
   },
   {
-    "text": "i was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I was charged a late fee even though I paid my bill on time, can you explain?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "My payment method has been declined for the past three months, what's going on?",
+    "label": "billing"
   },
   {
-    "text": "my payment method was rejected.",
-    "label": "Billing"
+    "text": "I upgraded my plan but I'm still getting the old prices on my invoice.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "The automated payment system keeps trying to charge me, can you stop it?",
+    "label": "billing"
   },
   {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "I'm trying to add a new payment method but the system won't let me, help!",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I received an email saying my account is past due, but I've been paying on time.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "Can I downgrade my plan without being charged a penalty?",
+    "label": "billing"
   },
   {
-    "text": "I would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I'm trying to dispute a charge from last month's invoice but the website won't let me.",
+    "label": "billing"
   },
   {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
+    "text": "My payment method is being rejected because of an expired card, how do I update it?",
+    "label": "billing"
   },
   {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
+    "text": "Can I get a refund for a service that I didn't use?",
+    "label": "billing"
   },
   {
-    "text": "Where can I download my latest invoice?",
-    "label": "Billing"
+    "text": "I was charged for a feature that I never activated, please remove it.",
+    "label": "billing"
   },
   {
-    "text": "where can i download my latest invoice?",
-    "label": "Billing"
+    "text": "The payment due date keeps moving, can you set a fixed date?",
+    "label": "billing"
   },
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I need to change my payment method but the system won't let me, it says it's already set.",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "My credit card was declined and the system won't let me try again, help!",
+    "label": "billing"
   },
   {
-    "text": "The integration with Slack is not working.",
-    "label": "Technical Support"
+    "text": "I'm trying to set up automatic payments but the system won't let me, please assist.",
+    "label": "billing"
   },
   {
-    "text": "i was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm having trouble accessing my account due to an incomplete billing address. Can I update it?",
+    "label": "billing"
   },
   {
-    "text": "Please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "I was charged twice for my monthly subscription. How can I get the duplicate charge reversed?",
+    "label": "billing"
   },
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "The auto-renewal feature for my premium plan is not working. Please help me resolve this.",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've been trying to cancel my subscription, but the button is greyed out. Can you assist me?",
+    "label": "billing"
   },
   {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "My bank is disputing a charge for a service I didn't use. Can I get more information about the transaction?",
+    "label": "billing"
   },
   {
-    "text": "My payment method was rejected.",
-    "label": "Billing"
+    "text": "I'm trying to change my payment method from PayPal to credit card, but the option is not available. Help!",
+    "label": "billing"
   },
   {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
+    "text": "I've noticed a discrepancy in my bill. Can you provide a breakdown of the charges for my last month?",
+    "label": "billing"
   },
   {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I'm getting error messages when trying to make a payment online. Can someone assist me?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I was charged for a service that I thought was included in my plan. Can I get a refund?",
+    "label": "billing"
   },
   {
-    "text": "please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "I'd like to upgrade my plan, but the website says I'm not eligible. Can you review my account?",
+    "label": "billing"
   },
   {
-    "text": "I'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "I've been experiencing issues with recurring payments. Can someone contact me to resolve this?",
+    "label": "billing"
   },
   {
-    "text": "i'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "I'm having trouble accessing my billing history. Can I get it emailed to me?",
+    "label": "billing"
   },
   {
-    "text": "i forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I'm trying to change my billing cycle from monthly to quarterly, but the option is not available. Help!",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've noticed that my bank account was charged in full, but I only wanted to pay a partial payment. Can I correct this?",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I've been charged for a trial period that I didn't use. Can I get a refund?",
+    "label": "billing"
   },
   {
-    "text": "My app keeps crashing when I click the submit button.",
-    "label": "Technical Support"
+    "text": "I'd like to add a new payment method, but the website is saying it's already been added. Can you help me resolve this?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm trying to dispute a charge for a service that I didn't use. Can you provide more information about the transaction?",
+    "label": "billing"
   },
   {
-    "text": "my app keeps crashing when i click the submit button.",
-    "label": "Technical Support"
+    "text": "The billing amount for my subscription has increased unexpectedly. Can someone explain the reason behind this?",
+    "label": "billing"
   },
   {
-    "text": "i'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "I'm trying to cancel my subscription, but the website is saying I need to pay for the next month first. Can you assist me?",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "I've been having trouble with credit card declines. Can someone help me troubleshoot the issue?",
+    "label": "billing"
   },
   {
-    "text": "I want to upgrade my plan to Enterprise.",
-    "label": "Billing"
+    "text": "Hello, my bill for the month of February has an incorrect charge for $25. I never used that amount of data. Please help me correct it.",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I've been charged $10 twice this month. Can you please refund one of them?",
+    "label": "billing"
   },
   {
-    "text": "my app keeps crashing when i click the submit button.",
-    "label": "Technical Support"
+    "text": "How do I update my payment method? The one I have on file is expired and I'm getting an error message.",
+    "label": "billing"
   },
   {
-    "text": "I'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "I'm being charged for a service I never signed up for. I think it's a mistake. Please cancel it ASAP.",
+    "label": "billing"
   },
   {
-    "text": "The integration with Slack is not working.",
-    "label": "Technical Support"
+    "text": "Can I get a breakdown of my charges for the past 3 months?",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "My billing cycle is off by a week. Can you please sync it with the correct date?",
+    "label": "billing"
   },
   {
-    "text": "i forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I've been trying to pay my bill online, but the system keeps saying my payment method is invalid. Help!",
+    "label": "billing"
   },
   {
-    "text": "Database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "I'm being charged $50 for equipment rental, but I returned it 2 months ago. Can you please adjust my bill?",
+    "label": "billing"
   },
   {
-    "text": "i can't log in using my google account.",
-    "label": "Account Access"
+    "text": "The billing cycle for my business account is not matching the calendar month. Can you please adjust it?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm getting a 'payment not found' error when trying to make a payment online. Can you please assist?",
+    "label": "billing"
   },
   {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "I'd like to upgrade my plan to include more storage. How do I go about doing that?",
+    "label": "billing"
   },
   {
-    "text": "i'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Can I get a refund for the last month's bill if I cancel my service before the next billing cycle?",
+    "label": "billing"
   },
   {
-    "text": "My payment method was rejected.",
-    "label": "Billing"
+    "text": "My credit card was declined, and the bill still got charged. Can you please help me figure out what went wrong?",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "I've been charged for a free trial. Can you please cancel the recurring charge?",
+    "label": "billing"
   },
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "Can you please change the billing address for my account to my new home address?",
+    "label": "billing"
   },
   {
-    "text": "I can't log in using my Google account.",
-    "label": "Account Access"
+    "text": "I'm trying to set up automatic payments, but the system keeps asking for a 3-digit security code. Help!",
+    "label": "billing"
   },
   {
-    "text": "Can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I've been charged for a service I thought was included in my bundle. Can you please adjust my bill?",
+    "label": "billing"
   },
   {
-    "text": "I forgot my password and can't reset it.",
-    "label": "Account Access"
+    "text": "Can you please provide me with a copy of my past 6 months' invoices?",
+    "label": "billing"
   },
   {
-    "text": "how do i change the primary email on my profile?",
-    "label": "Account Access"
+    "text": "I'd like to switch to a different billing cycle, but I'm not sure how to do it. Can you please guide me?",
+    "label": "billing"
   },
   {
-    "text": "Add more themes to the profile page.",
-    "label": "Feature Request"
+    "text": "I'm having trouble finding my invoice online. Can you please send me a copy via email or mail?",
+    "label": "billing"
   },
   {
-    "text": "Please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "Account upgrade to premium plan was supposed to happen automatically, but I still see the trial plan details on my account.",
+    "label": "billing"
   },
   {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
+    "text": "I've been charged twice for my subscription this month, the first time was on the 1st and again on the 15th. Can you please explain why this happened?",
+    "label": "billing"
   },
   {
-    "text": "I was double charged for my subscription this month.",
-    "label": "Billing"
+    "text": "I'm trying to set up a new payment method, but the system isn't allowing me to save the new card info.",
+    "label": "billing"
   },
   {
-    "text": "can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "Over the past two months, I've been receiving incorrect invoices with inflated totals. Can you please look into this and correct any errors?",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I canceled my subscription in January, but I'm still being charged. Can you please cancel my account immediately?",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "I need to add a new company credit card to my account, but I don't see any option for company payment methods.",
+    "label": "billing"
   },
   {
-    "text": "Please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "Can you please clarify what the 'annual subscription fee' line item is on my invoice? We weren't aware of this charge.",
+    "label": "billing"
   },
   {
-    "text": "database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "My company's account has multiple users, but only one user has access to the billing info on the account dashboard.",
+    "label": "billing"
   },
   {
-    "text": "Can you add a dark mode to the interface?",
-    "label": "Feature Request"
+    "text": "I'm trying to upgrade my account to a new plan, but the pricing page says I'm eligible for a discount, but the discount code isn't working.",
+    "label": "billing"
   },
   {
-    "text": "My payment method was rejected.",
-    "label": "Billing"
+    "text": "I received an email about a payment failure, but I made the payment on time and it was deposited into your bank account.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "I need to update my payment method to a new debit card, but I'm having trouble finding the correct form to fill out.",
+    "label": "billing"
   },
   {
-    "text": "The integration with Slack is not working.",
-    "label": "Technical Support"
+    "text": "I'm getting an error message when trying to pay my bill, saying that my card info is invalid. I'm pretty sure I entered the correct info.",
+    "label": "billing"
   },
   {
-    "text": "where can i download my latest invoice?",
-    "label": "Billing"
+    "text": "I'm trying to request an invoice for last month's payment, but I don't see the option to do so on the account dashboard.",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "I need to change my billing address for the account, but the system isn't allowing me to update the address.",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "I received an email about a refund for a payment I made, but I didn't request a refund. Can you please investigate this further?",
+    "label": "billing"
   },
   {
-    "text": "Database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "I'm trying to downgrade my account from a premium plan to the basic plan, but I'm being charged for the premium plan for another month.",
+    "label": "billing"
   },
   {
-    "text": "the integration with slack is not working.",
-    "label": "Technical Support"
+    "text": "I need to dispute a charge on my credit card, but I don't see any option for disputing charges on the account dashboard.",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I'm getting emails about overdue payments, but I've already paid for my subscription this month.",
+    "label": "billing"
   },
   {
-    "text": "i would love to see a bulk export feature.",
-    "label": "Feature Request"
+    "text": "I need to change my payment method from one credit card to another credit card. Can you please guide me through the process?",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "I'm trying to view my payment history, but I don't see the full details of my past payments on the account dashboard.",
+    "label": "billing"
   },
   {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "Account not charged this month, despite being a recurring payment",
+    "label": "billing"
   },
   {
-    "text": "I can't log in using my Google account.",
-    "label": "Account Access"
+    "text": "Why was I charged an extra $10 on my latest invoice?",
+    "label": "billing"
   },
   {
-    "text": "slow performance on the mobile app.",
-    "label": "Technical Support"
+    "text": "Overdue notice despite on-time payments for the past 6 months",
+    "label": "billing"
   },
   {
-    "text": "my payment method was rejected.",
-    "label": "Billing"
+    "text": "Received duplicate invoice for the same month",
+    "label": "billing"
   },
   {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "Can't access my billing information due to expired password",
+    "label": "billing"
   },
   {
-    "text": "Database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "Billing address not updating to new address",
+    "label": "billing"
   },
   {
-    "text": "database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "Dispute charge on my credit card for subscription renewal",
+    "label": "billing"
   },
   {
-    "text": "I'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "Missing invoice for the month of December",
+    "label": "billing"
   },
   {
-    "text": "I'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Account locked due to too many incorrect login attempts",
+    "label": "billing"
   },
   {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "Credit card declined during checkout, need alternative payment option",
+    "label": "billing"
   },
   {
-    "text": "my account has been suspended for no reason.",
-    "label": "Account Access"
+    "text": "Requesting refund for cancelled subscription service",
+    "label": "billing"
   },
   {
-    "text": "database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "Subscription renewal failed due to expired credit card",
+    "label": "billing"
   },
   {
-    "text": "I'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Billing cycle changed without notice",
+    "label": "billing"
   },
   {
-    "text": "I'm getting a 500 error on the dashboard.",
-    "label": "Technical Support"
+    "text": "Error message when trying to change payment method on dashboard",
+    "label": "billing"
   },
   {
-    "text": "i want to upgrade my plan to enterprise.",
-    "label": "Billing"
+    "text": "Past due notice for unpaid balance over 3 months",
+    "label": "billing"
   },
   {
-    "text": "how do i cancel my trial?",
-    "label": "Billing"
+    "text": "Need to update my payment method to a new credit card",
+    "label": "billing"
   },
   {
-    "text": "please support multi-factor authentication.",
-    "label": "Feature Request"
+    "text": "Received unexpected charge for addon service not used",
+    "label": "billing"
   },
   {
-    "text": "i'm locked out of my account after too many attempts.",
-    "label": "Account Access"
+    "text": "Overseas bank account not supported for payments",
+    "label": "billing"
   },
   {
-    "text": "How do I cancel my trial?",
-    "label": "Billing"
+    "text": "Need detailed breakdown of my past 6 months' invoices",
+    "label": "billing"
   },
   {
-    "text": "i want to upgrade my plan to enterprise.",
-    "label": "Billing"
+    "text": "My credit card was declined for the April payment. Is there an issue with my account?",
+    "label": "billing"
   },
   {
-    "text": "database connection timeout occurring frequently.",
-    "label": "Technical Support"
+    "text": "Why did my bill go up $20 this month? I've had the same plan for 3 years.",
+    "label": "billing"
+  },
+  {
+    "text": "I tried to pay online but the system said it's not a valid credit card number. Can you help?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm getting charged for a service I cancelled 2 months ago. Please fix it.",
+    "label": "billing"
+  },
+  {
+    "text": "I need to dispute a charge from last month. Can you provide a refund?",
+    "label": "billing"
+  },
+  {
+    "text": "My bill says I'm over my data limit, but I'm not even using it. Is this a mistake?",
+    "label": "billing"
+  },
+  {
+    "text": "I've been paying for a business account, but I just lost my business. Can I downgrade to a personal plan?",
+    "label": "billing"
+  },
+  {
+    "text": "I set up automatic payments, but they're not going through. What's going on?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm being charged for a subscription I cancelled 5 months ago. I need a refund.",
+    "label": "billing"
+  },
+  {
+    "text": "Can you explain why my bill went down this month? I'm confused.",
+    "label": "billing"
+  },
+  {
+    "text": "I've been trying to reach customer support for 2 weeks about an issue with my bill. Help.",
+    "label": "billing"
+  },
+  {
+    "text": "Can I have a copy of my past bills? I need to track my expenses.",
+    "label": "billing"
+  },
+  {
+    "text": "My payment method is expiring soon, but I don't want to change it. Can you renew it automatically?",
+    "label": "billing"
+  },
+  {
+    "text": "Why am I getting charged for a service that's supposed to be free?",
+    "label": "billing"
+  },
+  {
+    "text": "I need to add a new payment method to my account. Can you walk me through it?",
+    "label": "billing"
+  },
+  {
+    "text": "Can you cancel my service and provide a refund for the remaining months?",
+    "label": "billing"
+  },
+  {
+    "text": "I've been trying to pay my bill online, but the system's not working. Can you help?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to switch from one payment plan to another, but it's not letting me. What's going on?",
+    "label": "billing"
+  },
+  {
+    "text": "Can you clarify what's included in my current plan? I want to make sure I'm getting the right services.",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to understand why my electricity bill is 50% higher than last month. Can you help me identify the reason behind this increase?",
+    "label": "billing"
+  },
+  {
+    "text": "Account was charged $200 for an annual subscription, but I've never subscribed to any service. Please investigate and refund me.",
+    "label": "billing"
+  },
+  {
+    "text": "Error message when trying to pay online: 'Transaction failed due to insufficient funds.' Can someone check my account status and help me sort this out?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to understand why my water bill is higher than usual. Can someone walk me through the meter reading process and help me identify any potential issues?",
+    "label": "billing"
+  },
+  {
+    "text": "Can someone explain how to read my bill? I'm not sure what all these charges mean.",
+    "label": "billing"
+  },
+  {
+    "text": "I was automatically enrolled in a package deal without my permission. Can you cancel the package and provide a refund?",
+    "label": "billing"
+  },
+  {
+    "text": "Account was flagged for a suspicious transaction and my card was frozen. How do I lift the freeze and get back to normal?",
+    "label": "billing"
+  },
+  {
+    "text": "I made a payment but it hasn't been applied to my account. Can you manually apply the payment for me?",
+    "label": "billing"
+  },
+  {
+    "text": "I have a problem with my credit card being declined when trying to pay my bill. Can someone help me resolve this issue?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to understand why my internet bill is higher than normal. Can someone walk me through the usage tracking process and help me identify any potential issues?",
+    "label": "billing"
+  },
+  {
+    "text": "I've been charged multiple times for the same service. Can someone help me identify the reason behind this and refund me.",
+    "label": "billing"
+  },
+  {
+    "text": "I'm moving to a new address. Can someone help me update my billing information and ensure there are no service disruptions?",
+    "label": "billing"
+  },
+  {
+    "text": "Can someone explain why my bill is due sooner than usual? I'm used to the normal billing cycle.",
+    "label": "billing"
+  },
+  {
+    "text": "I'm experiencing issues with the automatic payment feature. Can someone help me set it up correctly?",
+    "label": "billing"
+  },
+  {
+    "text": "Account has been charged $500 for a one-time service fee, but I didn't receive any service. Can someone investigate and refund me.",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to understand why my phone bill has increased significantly. Can someone walk me through the usage tracking process and help me identify any potential issues?",
+    "label": "billing"
+  },
+  {
+    "text": "I made a mistake on my payment and I need to correct it. Can someone help me update my payment details?",
+    "label": "billing"
+  },
+  {
+    "text": "I've been overcharged for a service I cancelled months ago. Can someone help me identify the reason behind this and refund me.",
+    "label": "billing"
+  },
+  {
+    "text": "I'm trying to understand why my gas bill is higher than normal. Can someone walk me through the meter reading process and help me identify any potential issues?",
+    "label": "billing"
+  },
+  {
+    "text": "I've been charged a late fee, but I paid my bill on time. Can someone investigate and remove the late fee for me.",
+    "label": "billing"
+  },
+  {
+    "text": "I need help with my recurring subscription, it says I'm being charged but I cancelled it last week.",
+    "label": "billing"
+  },
+  {
+    "text": "Error occurred while making payment, card declined. Is there a minimum amount I can pay?",
+    "label": "billing"
+  },
+  {
+    "text": "I don't understand the 'introductory offer' on my bill, what does that mean?",
+    "label": "billing"
+  },
+  {
+    "text": "I'm having trouble connecting to the Wi-Fi at my office and the error message says 'unidentified network'. Can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The app keeps crashing on my iPhone every time I try to access my account. I've updated the OS but it still doesn't work.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my smart TV. The picture quality is poor and the remote control isn't responding. Can someone assist me?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I bought a new printer from your company and the ink cartridges don't seem to be recognized by the device. Is there a solution?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to set up my new router but I'm getting a 'login failed' error when using the admin interface. Can you walk me through the troubleshooting steps?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been charged twice for my monthly subscription. Can you please resolve this and refund me the extra amount?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with my laptop's microphone. People can barely hear me during video calls. Can someone help me fix this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've installed the new software update but now my computer is taking forever to start up. Is there a way to revert back to the previous version?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'connection timed out' error when trying to access my account online. Can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with the website's chat functionality. It keeps popping up with an error message saying 'not supported by browser'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've tried to cancel my subscription but the option is greyed out. Can you assist me with this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my wireless headphones. The sound keeps cutting out and the battery life is shorter than expected. Can someone help?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've installed the new firmware update but now my smart lock isn't working properly. Can you assist me with restoring it to its default settings?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting an error message saying 'invalid username or password' when trying to log in to my account. Can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been having trouble with my smartphone's battery life. It's draining faster than usual and I'm concerned about it overheating. Can you help?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've tried to reset my password but the email recovery link isn't working. Can you assist me with this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my computer's fan. It's making a strange noise and the computer is overheating. Can someone help me fix this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've installed the new software but now my computer won't recognize my external hard drive. Is there a solution?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with my tablet's touchscreen. It's not responding to my inputs and the screen is stuck on the lock screen. Can you assist me with this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've tried to update my antivirus software but the installation keeps failing. Can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my payment method on the website, getting a 'Card Declined' error even though my card is valid.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My streaming service is buffering constantly, it's been going on for days and I've tried restarting my router and modem.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble creating a new account, the 'Register' button doesn't do anything when I click it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I bought a virtual item but it's not showing up in my inventory, please help me resolve this issue.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'Connection Timed Out' error when trying to access the online help resources, can someone look into this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My internet speed has decreased significantly since I started using your service, is there a way to troubleshoot this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The password reset link keeps sending me to a blank page, please assist with resetting my password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Installed the latest software update but now my app keeps crashing, any ideas on how to resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Getting an error that says my license key is invalid, but I'm certain I entered it correctly.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm unable to print documents from the web-based application, getting an error message saying my printer is not connected.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to cancel my subscription but the 'Cancel' button is greyed out, can you please assist?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've tried to reset my password multiple times but it keeps saying I'm entering the wrong password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'Server Unavailable' error message when trying to access the dashboard, can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The chat function is not working, I click on it but nothing happens, please investigate.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been experiencing issues with my email service, emails are getting stuck in the 'Outbox' folder and won't send.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to upgrade my plan but the 'Upgrade' button is not available, please look into this.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting an error message saying my account has been suspended, but I've done nothing wrong, please investigate.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with the mobile app, it's freezing and crashing constantly, please help me troubleshoot this issue.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to access my account but the password reset link is not working, can you please assist with resetting my password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My laptop won't turn on. I've tried charging it, but the screen remains black.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing a login issue with the app. It keeps asking me to verify my email.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The sound on my speaker isn't working. I've checked the volume and it's turned up all the way.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting a 'connection timed out' error on the website for the past hour.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My router's lights are blinking, and I'm not getting any internet. What's going on?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I tried to install the latest update on my phone, but it's freezing on the installation screen.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a bunch of spam emails from my account. How do I stop them?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I bought a new printer, but it won't connect to my computer. It says 'device not recognized'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The Netflix app on my TV isn't working. It's showing a blank screen.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I upgraded my OS, but now my favorite game isn't compatible. What do I do?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My camera is not taking pictures. The shutter button is unresponsive.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble accessing my cloud storage account. It says I need to reset my password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The Wi-Fi on my laptop is slow. Is there a way to boost the signal?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I tried to download a file on my computer, but it's stuck on 99%.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having issues with my smart thermostat. The temperature is fluctuating wildly.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting a 'server not found' error when I try to access the website on my phone.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My Xbox controller is not charging. The lights on the controller are not turning on.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble printing from my laptop. It's saying 'no printer found'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I upgraded my smartphone, but now my old SIM card isn't working.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been experiencing a lot of lag on the game. It's freezing on my computer.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing a black screen when I log in to my account. Can you please help me resolve this issue?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting a 'connection timed out' error when trying to access my online banking portal.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can you explain why my phone is not receiving any notifications from your app?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble loading a specific page on your website. It keeps freezing.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'server error 500' message when I try to use your service. What's wrong?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been experiencing a slow internet connection while using your streaming service.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to reset my password but it's not working. Can you please assist me?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a pop-up saying my subscription has expired, but I'm sure I paid for it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble accessing my email account due to a two-factor authentication issue.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I keep getting an error message saying my password is invalid when I try to log in.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing a delay in receiving emails from your service. Can you help resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to use your new feature but it's not working as expected. Can you provide guidance?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting a 'not authorized' error message when trying to access my account.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a slow loading speed on your website. Is it a server issue?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my account being locked out. Can you please help me?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to cancel my subscription but the button is not working. Can you assist?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting an error message saying my browser is not supported by your service.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing technical difficulties while using your mobile app. Can you help me troubleshoot?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to upgrade my plan but the payment section is not working. Can you assist?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'maintenance mode' error message when trying to access my account.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error with software update on my laptop. Can't seem to complete the installation.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Why is my account logged out on multiple devices? This never happened before.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing a slow internet connection on my home Wi-Fi network.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Product not recognized by the device. I've tried uninstalling and reinstalling.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My email is not syncing on my phone's app, getting a sync error every time.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't access my account on the website. Getting a 404 error code.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Why can't I see my purchased history on the website?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Issue with printing documents from my computer. It keeps saying 'no printer found'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'connection timeout' error when trying to access the server remotely.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My computer is freezing occasionally, especially when I'm using resource-heavy apps.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error with payment processing. Payment method not accepted.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't update my app as it's saying it's up to date, but I know I need a newer version.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Problem with my router. The device is not showing up in the network list.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Account locked out after multiple login attempts. This shouldn't be happening to me.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error with video playback on my TV. Stuttering and freezing often.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't download the latest firmware update for my device. Getting stuck at 99%.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My phone is not receiving texts from certain numbers. Getting an 'unknown number' error.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing intermittent loss of Wi-Fi signal on my mobile hotspot.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error with my software subscription. It says it's expired, but I'm paying for it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My laptop won't turn on. I've tried charging it but the screen remains black.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The video on your website is not playing on my iPhone. Can you fix it please?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing a lag issue with my game on your platform. It freezes every 5 minutes.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I tried to download your software but it says it's not compatible with my Windows 10.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The email I sent to your team a week ago is still pending. Can you check on it?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble logging into my account. The password reset isn't working.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I accidentally deleted my files from your cloud storage. Can you retrieve them for me?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The GPS on my device is not updating correctly. It keeps showing the wrong location.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The Wi-Fi on my router isn't working. I've tried restarting it but the issue persists.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having a slow internet connection on your streaming platform. Can you help me optimize it?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I purchased a product from your online store but it doesn't match the description on the website.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a pop-up error message saying that my Adobe Acrobat is not installed.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The keyboard on my device is not responding correctly. I can only type one word at a time.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing an error message when trying to make a payment on your website.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The microphone on my device is not working. I'm trying to record a video but it's not picking up my voice.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I accidentally installed a virus on my computer and now it's slow and unresponsive.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The font size on your mobile app is too small and I'm having trouble reading the text.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'connection timed out' error message when trying to access your server.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with my printer not printing in color. It only prints in black and white.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a message saying that my subscription has expired but I'm still being charged.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble logging in to my account, it keeps saying my password is incorrect. Please help me reset it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Product crashes every time I try to run it on my Mac, is there an update or patch that can fix this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I purchased a subscription but haven't received any confirmation email, what's going on?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I click on the download link, it keeps taking me back to the product homepage, help!",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My email isn't being forwarded to my new account, it's still going to the old one.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'connection timed out' error when trying to access my dashboard, can you assist?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can you please explain why I'm being charged for two separate plans when I only signed up for one?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The new update broke my workflow, please provide steps to revert to the previous version.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to upload files, it says they're too large, what's the max file size limit?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having issues with my credit card payment, can you assist with a refund or replacement?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting an error message saying 'invalid API key', how do I obtain a new one?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My account was suspended, but I don't know why, can you help me resolve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I click on 'submit' it keeps reloading the page, not sending my form. Help!",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing slowness when using the software, is there an optimization I can make?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to connect my social media accounts but it keeps saying 'authorization failed'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I need help with a refund, I cancelled my subscription but it still charged me.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can you provide instructions on how to set up two-factor authentication on my account?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm not receiving notifications, is there a setting I need to adjust?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The software keeps freezing on startup, what's the issue?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm trying to import data but it's not recognizing the file format, can you help?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My account is not loading on the mobile app, it says 'Connection Failed' and I've tried restarting the app.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Having trouble accessing the dashboard, error message says 'Invalid Credentials' but I'm positive I'm using the right email and password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 404 error when I click on the 'Settings' tab in the account settings section.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The website takes forever to load and freezes up on my laptop, I'm using Chrome, version 105.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been trying to reset my password but the 'Forgot Password' link isn't working.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My account has been locked out for no reason, it says I've entered the wrong password 5 times in a row.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing slow performance on my desktop, takes around 30 seconds to load a single page.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I get a 'Certificate Error' message when I try to access the customer portal from my phone.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I upload a file to the 'Documents' section, it says 'File Too Large' but I'm sure it's under the limit.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The chat function on the website isn't working, it says 'Your browser doesn't support webchat'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting intermittent connectivity issues with the mobile app, freezes up and crashes.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I log in to my account, I get a 'Session Expired' message but I'm using a secure connection.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The search function on the website isn't working, returns no results for valid search terms.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My account is not syncing with my Google calendar, says 'Sync Failed' every time.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The website crashes on my Mac when I try to access the 'FAQ' section.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a 'Timeout Error' when I try to access the live chat feature.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to pay an invoice online, it says 'Payment Method Not Valid' but I've entered all credentials correctly.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm experiencing issues with my account's security, keeps asking me to change my password even though I've already changed it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The website won't allow me to submit changes to my account info, says 'Validation Failed' but I've filled in all required fields.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My account has been flagged for security reasons, says 'Your account has been temporarily locked' but I've done nothing wrong.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Order #1234 not showing in dashboard. Can you investigate?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error message when trying to upload file: 'file not found'. Browser: Chrome, OS: Windows 10.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't access premium features due to expired subscription. Need to renew.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Slow performance on app. Takes 10 minutes to load home screen. Please look into it.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't find my account password reset email. Sent from email [abc@email.com](mailto:abc@email.com).",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error code 'E00001' when trying to purchase digital product. Need help resolving.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Browser not loading images. Error: 403 Forbidden. Browser: Safari, OS: macOS.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Issue with payment gateway. Can't complete transaction. Need assistance.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "App crashing when trying to play online game. Need help resolving the error.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't find my order history. Need to track my purchases.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error when trying to update profile info: 'connection timed out'. OS: Android.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Slow mobile app. Takes 5 minutes to load home page. Need to optimize.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't access my email account. Need to reset password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Not receiving email confirmations. Sent from email [def@email.com](mailto:def@email.com).",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error message when trying to print document: ' printer not found'. Browser: Firefox, OS: Linux.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "App not updating automatically. Need to manually update.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't find my friends list. Need to connect with other users.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error code 'E00002' when trying to redeem coupon. Need help resolving.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Can't access my account due to incorrect credentials. Need to reset password.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Error message when trying to upload video: ' file too large'. Browser: Edge, OS: Windows 8.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "[Error code 404] - I'm getting a 404 error when trying to access my account. Can you help me fix this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My phone app keeps crashing after I update it. I'm on Android 12 and I've tried uninstalling and reinstalling.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The video playback is distorted on my TV when connected via HDMI. Is there a setting that can improve this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble setting up my Wi-Fi connection. I've checked all the cables and they're connected, but I still can't connect.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to upload a large file to my storage account, it hangs for hours and doesn't complete. Can you increase the upload limit?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a pop-up saying my password is weak. How can I change it to a stronger password?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been experiencing frequent disconnections from the internet. Have there been any outages in my area?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to redeem my promo code, it says it's invalid. Can you check the code and see if it's correct?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My router keeps rebooting every hour. I've checked the power cord, but it's plugged in securely.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm unable to login to my account after changing my password. What's going on?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to take a screenshot, it's delayed by a few seconds. Can you help me troubleshoot this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble with my headphones not playing audio in game. Can you provide a solution?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to use the chat feature on the website, it says 'your browser is too old' - how can I update my browser?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I've been getting error messages when trying to access certain pages on the website. Can you check the website's logs?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a notification saying my antivirus software is outdated. Can you give me instructions on how to update it?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My computer is freezing when I try to watch videos on YouTube. Can you help me troubleshoot this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to connect my smart speaker to my router, it doesn't connect. Have there been any issues with the speaker's software?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm getting a message saying my account has been locked due to too many login attempts. Can you unlock my account?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "When I try to use the website on my iPad, it's very slow and unresponsive. Is there a solution for this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "I'm having trouble sending emails to certain recipients - they're not receiving them. Can you help me troubleshoot this?",
+    "label": "technical_issue"
+  },
+  {
+    "text": "My camera is not taking photos, it just shows a black screen.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "The website is not loading on my phone, I get an error message saying 'connection timed out'.",
+    "label": "technical_issue"
+  },
+  {
+    "text": "Feature request: Add a dark mode option to the mobile app.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi, would it be possible to add a feature that allows users to save frequently used addresses?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Request: Add a share button to the desktop version of the website, preferably next to the 'Like' button.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love it if you could add a feature to allow multiple users to collaborate on a single project.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Would it be possible to add a feature to allow users to download projects as a zip file?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I have an idea for a new feature that I think would be super useful: a 'reminders' feature where users can set reminders for upcoming deadlines.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be great if there was a feature to allow users to customize the layout of their dashboard.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Feature request: Add a feature to allow users to filter projects by category.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've been using your service for a while now, and I think it would be really useful if you could add a feature to allow users to export their data to CSV.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you please add a feature to allow users to upload files of size up to 10GB?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be a great idea if you could add a feature to allow users to schedule recurring tasks.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hello, I was wondering if it's possible to add a feature that allows users to see who's currently working on a project?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to request a feature that allows users to track their time spent on a project.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Would it be possible to add a feature to allow users to export projects as a PDF?",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be super helpful if you could add a feature to allow users to assign tasks to specific team members.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you please add a feature to allow users to upload videos of up to 5 minutes in length?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be a great idea if you could add a feature to allow users to integrate your service with Google Drive.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Feature request: Add a feature to allow users to set custom notifications for specific projects.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've been using your service for a while now, and I think it would be really useful if you could add a feature to allow users to create custom workflows.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Would it be possible to add a feature to allow users to see a list of all their completed tasks?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I was using your email client and had an idea for a feature that would let users schedule emails in bulk. The current scheduling feature is great but having it for multiple emails at once would save so much time. Could this be a possibility in the future?",
+    "label": "feature_request"
+  },
+  {
+    "text": "How do I disable the annoying 'you have unread messages' notification? It's really distracting and I need to focus on my work. Is there an option to turn it off?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love using your project management tool but I think it would be awesome if you had a 'dependency' field for tasks. This would let us set up tasks that rely on other tasks being completed first, making our workflows way more efficient.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The new UI update is really nice but I'm missing the old 'quick search' function in the main menu. Can we get that back or have a similar functionality?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use your note-taking app for my school work but I wish there was a way to easily copy and paste formatted text into it. Currently, the formatting gets lost when I paste it in.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've noticed that your customer support chat often goes offline for a few minutes at a time. Can you guys make it stay online 24/7? It would really improve the user experience.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if your photo editing software had a 'magic eraser' tool like in other apps. It would make removing unwanted objects so much easier.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use your CRM system but the 'lead scoring' feature isn't working as expected. It's not giving me accurate scores for my leads. Can you have a look?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm really enjoying your email marketing platform but I wish there was an option to schedule emails for specific dates/times in a user's local time zone. This would make our campaigns more effective.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've been using your password manager for a while now and I think it would be awesome if you had a 'password health' feature that checks for weak/compromised passwords and offers suggestions for improvement.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you please add a 'copy to clipboard' option for the 'quick stats' section in your dashboard? It would make it easier to share data with our team.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love using your social media scheduling tool but I wish there was an option to upload a CSV file with multiple schedules at once. Currently, I have to do it one by one.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if your website builder had a built-in 'heat map' feature that shows where users are clicking on our site. This would help us improve our user experience.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use your online collaboration tool but the '@mention' feature isn't working as expected. It's not tagging the right people. Can you have a look?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm really enjoying your website analytics tool but I wish there was an option to export data in a more customizable format (e.g. CSV, Excel). Currently, it's only in a fixed format.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be awesome if your customer support platform had a 'knowledge base' feature that allows users to search and view past support requests.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've been using your video editing software for a while now and I think it would be great if you had a 'green screen' effect like in other apps. It would make our videos more professional.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you please add a 'due date reminder' feature for tasks in your project management tool? It would help us stay on top of deadlines.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love using your online invoicing tool but I wish there was an option to send automated reminders for overdue payments. Currently, I have to do it manually.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if your customer relationship management system had a 'predictive lead scoring' feature that uses machine learning to predict which leads are most likely to convert.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature where I can schedule tasks in the app, so I can save time and stay organized. It would be really helpful to have a calendar view and the ability to set reminders.",
+    "label": "feature_request"
+  },
+  {
+    "text": "There should be a feature where I can export my data in CSV or Excel format, so I can use it in other apps and tools. This would be super helpful for analytics and reporting.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please have a feature to allow users to upload custom fonts and font sizes? This would make the app so much more customizable and user-friendly.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if we could have a feature that allows us to assign tasks to team members based on their skills and availability. This would really help with task distribution and project management.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to track their time spent on tasks and projects. This would be really helpful for billing and invoicing.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really cool if we could have a feature that allows us to integrate with other apps and tools using Zapier or IFTTT. This would really expand the app's capabilities and make it more versatile.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to create custom workflows and automations using a visual editor. This would really help with streamlining processes and reducing manual work.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if we could have a feature that allows users to assign due dates to tasks based on a specific date range, such as 'next week' or 'in 2 days'. This would really simplify task management and reduce errors.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please have a feature that allows users to add custom tags and labels to tasks and projects? This would really help with organization and filtering.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to track their progress and completion rates on tasks and projects. This would be really helpful for motivation and accountability.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if we could have a feature that allows users to add attachments and files to tasks and projects. This would really help with collaboration and knowledge sharing.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to set up recurring tasks and appointments. This would really simplify the task of scheduling regular tasks and meetings.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be cool if we could have a feature that allows users to create custom dashboards and reports using a drag-and-drop interface. This would really help with visualization and insights.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please have a feature that allows users to share tasks and projects with others using a public link? This would really simplify the process of sharing tasks and projects with team members and stakeholders.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to set up custom notifications and alerts based on specific conditions. This would really help with staying on top of tasks and deadlines.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if we could have a feature that allows users to create custom fields and metadata for tasks and projects. This would really help with customizing the app to meet specific business needs.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to import tasks and data from other apps and tools using CSV or Excel files. This would really simplify the process of migrating to the app.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be cool if we could have a feature that allows users to create custom workflows and automations using a visual editor, and then export them to other apps and tools. This would really help with streamlining processes and reducing manual work.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please have a feature that allows users to track their time spent on tasks and projects, and then generate reports and invoices based on that data? This would really help with billing and invoicing.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature that allows users to create custom dashboards and reports using a drag-and-drop interface, and then share them with others using a public link. This would really help with collaboration and knowledge sharing.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love it if you could implement a dark mode for the app, it's been a feature I've been missing since using it.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Need a way to schedule posts in advance for social media management",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a feature to allow us to add custom fields to lead forms?",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be super helpful to have a way to export user data in CSV format",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think a feature to allow for mass editing of user profiles would be a big timesaver",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love your app, but I think it would be great if you had a native mobile app",
+    "label": "feature_request"
+  },
+  {
+    "text": "I need a feature to allow users to upload custom images for their profiles",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature that integrates with Google Sheets for easier data management",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think you should have a feature that allows users to import their contacts from their email client",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you add a feature to allow us to customize the notification emails that get sent out to users?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm not sure about the new update, maybe just revert back to the old version?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Feature request: ability to create and assign custom roles for users",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi team, I think it would be great if you had a feature to allow users to reset their own passwords without having to contact support",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be awesome if you had a feature to allow for two-factor authentication",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can you add a feature that integrates with Zapier for easier automation of workflows?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love the new integration with Slack, but maybe you could also add a feature to integrate with other popular team chat apps?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I've been using your app for a while now, but I was wondering if it would be possible to add a feature to allow us to set custom branding for the app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Feature request: ability to create custom workflows for specific user roles",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be super helpful to have a feature that allows us to send targeted email campaigns to our users",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great if you had a feature to allow users to import their data from other popular project management tools",
+    "label": "feature_request"
+  },
+  {
+    "text": "I was hoping that the mobile app could have an in-app browser for easier access to external links within the platform.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature to customize the notification emails to include our company logo?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a 'suggested friends' feature within the groups section, similar to other social media platforms.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The ability to upload larger file sizes for profile pictures would be greatly appreciated.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm missing the option to schedule posts in advance for my social media accounts.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The chat feature on the website does not work properly in Firefox, can we look into this?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would like to request a mobile app for the desktop version of the product.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is it possible to get a dark mode option for the app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a feature to share our progress with colleagues and get feedback in real-time?",
+    "label": "feature_request"
+  },
+  {
+    "text": "The search bar within the app is not working as expected, can we look into this?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm looking for a feature to integrate our product with our existing CRM system.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I was wondering if it's possible to have a feature to share our product with non-users for testing purposes.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be a great idea to have a feature to allow users to upload custom backgrounds for their profiles.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I was hoping that the product could have an 'activity feed' similar to what other social media platforms offer.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature to integrate with other productivity tools such as Trello or Asana?",
+    "label": "feature_request"
+  },
+  {
+    "text": "The ability to export our data in a CSV file would be a great feature.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm missing the option to save our favorite contacts for easy access later.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love to see a feature to integrate our product with our existing calendar system.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The current version of the product does not allow for easy collaboration with non-users.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be great to have a feature to allow users to pin frequently used settings to the top of the screen.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Implement a dark mode feature for mobile app to reduce eye strain while using the app",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really useful to have a feature to export my notes as PDF files",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a built-in image editor for customizing profile pictures?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Need a way to search for specific notes within a notebook",
+    "label": "feature_request"
+  },
+  {
+    "text": "Please add a feature to send reminders for upcoming events",
+    "label": "feature_request"
+  },
+  {
+    "text": "Suggest a feature to collaborate on notes with friends and family",
+    "label": "feature_request"
+  },
+  {
+    "text": "Feature request for integrating with Google Calendar for scheduling",
+    "label": "feature_request"
+  },
+  {
+    "text": "Add a feature to set read receipts for messages in the chat app",
+    "label": "feature_request"
+  },
+  {
+    "text": "I would love a feature to create and manage to-do lists within the app",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature to filter out spam messages in the chat app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request a feature to upload and share large files via the app",
+    "label": "feature_request"
+  },
+  {
+    "text": "Implement a feature to sync notes across multiple devices",
+    "label": "feature_request"
+  },
+  {
+    "text": "Request for a feature to customize notification sounds and styles",
+    "label": "feature_request"
+  },
+  {
+    "text": "Would love to have a feature to schedule social media posts in bulk",
+    "label": "feature_request"
+  },
+  {
+    "text": "Need a feature to create and manage guest lists for events",
+    "label": "feature_request"
+  },
+  {
+    "text": "Could we get a feature to translate messages in real-time during conversations?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request a feature to add custom tags and labels to notes",
+    "label": "feature_request"
+  },
+  {
+    "text": "Implement a feature to track and analyze usage statistics for the app",
+    "label": "feature_request"
+  },
+  {
+    "text": "Add a feature to create and manage surveys within the app",
+    "label": "feature_request"
+  },
+  {
+    "text": "Please add a feature to integrate with popular productivity tools like Slack and Trello",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like the ability to schedule posts for Instagram from the desktop app, is this something that's in the works?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Add a feature to allow users to filter search results by location, it's really hard to find relevant results now.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be super helpful to have the option to download entire conversations in a CSV file, could this be implemented?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a dark mode option for the mobile app, it's really hard on my eyes?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love this service, but I wish there was a way to track my order history, is this something that's coming soon?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to find a way to integrate your platform with my existing calendar, can you add an API to allow this?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to be able to upload custom fonts for my designs, will this be a feature in the future?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really useful to have the ability to edit previous messages in a conversation, is this something that's planned?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a feature to automatically translate messages to the recipient's language, it would help greatly with international customers?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love the idea of a 'snooze' feature for notifications, could this be added to the mobile app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to find a way to schedule meetings with customers, can you add a feature to integrate with Google Calendar?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be super helpful to have the option to upload custom backgrounds for my presentations, will this be a feature in the future?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to be able to save frequently used phrases or sentences for easy access, is this something that's in development?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a feature to allow users to share files up to 100MB each, it's really limiting right now?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love the idea of a 'read later' feature for articles, could this be added to the mobile app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to find a way to integrate your platform with my existing CRM, can you add an API to allow this?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really useful to have the ability to export entire conversations as a PDF, is this something that's planned?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to be able to customize the notification sound for each type of notification, will this be a feature in the future?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we have a feature to automatically send follow-up messages to customers who haven't responded, it would help greatly with customer support?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I love the idea of a ' Pomodoro timer' feature for focus-enhancing, could this be added to the desktop app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request a feature to save my favorite filters in the search results.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please enable customizable notifications for completed orders?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be super helpful if we could add an option to download purchase history as a CSV file.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm having trouble finding a specific type of product. Is it possible to create a category for 'vintage' items?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Adding a 'wish list' feature would make it easier for me to save items I'm interested in.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request the ability to import products from our old website into your platform.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The option to schedule future shipments would be really convenient for our business.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be great if we could add a feature to track inventory levels in real-time.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request the ability to create custom fields for product variations.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm not seeing the option to apply discounts to bulk orders. Can we please add this feature?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be helpful to have a 'recommended products' section on the product details page.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is it possible to integrate your platform with our existing accounting software?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Adding a feature to allow customers to leave reviews on specific products would improve our store's credibility.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request the ability to send automated follow-up emails to customers after a certain period of time.",
+    "label": "feature_request"
+  },
+  {
+    "text": "The option to create a 'guest shopping cart' would be convenient for customers who don't want to create an account.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request the ability to add custom payment methods for our business.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be great if we could add a feature to track the average order value for our store.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be helpful to have a ' product comparison' feature for customers to compare products side-by-side.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is it possible to create a 'bundle' feature that allows customers to purchase multiple related products together at a discount?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where I can schedule reminders directly within the app. Would be super helpful for keeping track of deadlines!",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is there a way to add a built-in image editor for users? I find myself constantly having to use external tools to touch up photos.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm looking for a feature that allows me to save and reuse custom workflows. This would save me hours of time every week.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please get a feature to import templates from Google Drive? This would make it so much easier to get started with new projects.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really helpful to have a feature that allows users to set custom notifications for specific tasks. Would be great for staying on top of things.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi Team, I was wondering if you could add a feature to allow users to create and manage custom dashboards. This would be super useful for tracking key metrics.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request a feature where users can share their projects with external collaborators via a link. This would make it easier to work with clients.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature that allows users to assign tasks to external team members who don't have an account? This would be super helpful for working with freelancers.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm looking for a feature that allows users to easily create and assign recurring tasks. This would save me so much time every week.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi, I was wondering if you could add a feature to allow users to export tasks to Excel. This would make it easier to analyze and track data.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really helpful to have a feature that allows users to create custom filters for their task lists. This would make it easier to find specific tasks.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please get a feature to integrate with Slack? This would make it easier to share updates with my team.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where users can create and manage custom reporting templates. This would make it easier to track key metrics.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi Team, I was wondering if you could add a feature to allow users to set custom due dates for tasks. This would be super helpful for planning projects.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm looking for a feature that allows users to easily create and assign tasks to specific team members. This would make it easier to manage projects.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature that allows users to customize the layout of their task lists? This would make it easier to prioritize tasks.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really helpful to have a feature that allows users to create custom task templates. This would save me so much time every week.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Hi, I was wondering if you could add a feature to allow users to export tasks to CSV. This would make it easier to analyze and track data.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where users can create and manage custom workflows for specific projects. This would make it easier to track progress.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we please get a feature to integrate with Google Calendar? This would make it easier to schedule tasks and events.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where customers can upload their own profile pictures. Currently, it's a generic icon, and I think it'd be nice to personalize their accounts.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a 'dark mode' option for the website? It's hard to read the text on the current background.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be awesome if we could integrate Google Calendar into your scheduling feature.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be super helpful to have a feature that allows us to export our conversation history into a CSV file.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use the 'group chat' feature, but I'm not sure how to add more users to the conversation. Can you please add a tutorial?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is it possible to add a feature where we can set recurring events in the calendar view?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really useful to have a feature where we can assign tasks to other team members directly within the app.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can I request a feature where we can send custom notifications to specific customers?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where customers can rate and review their interactions with our support team.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be great if we could have a feature to set custom time zones for each user in the app.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use the 'file sharing' feature, but I'm having trouble uploading large files. Can you please increase the file size limit?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature that allows us to set custom permissions for each user in the app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be really helpful to have a feature where we can set reminders for upcoming events.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can I request a feature where we can integrate our CRM system with your app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "Is it possible to add a feature where we can set custom labels for each conversation?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm trying to use the 'video conferencing' feature, but it's not working on my phone. Can you please optimize it for mobile?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I think it would be awesome if we could have a feature that allows us to set custom email templates for each conversation.",
+    "label": "feature_request"
+  },
+  {
+    "text": "Can we get a feature that allows us to set custom security permissions for each user in the app?",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd love to see a feature where customers can request a refund directly within the app.",
+    "label": "feature_request"
+  },
+  {
+    "text": "It would be super helpful to have a feature that allows us to set custom escalation rules for each conversation.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'd like to request a feature that allows users to save their frequently used searches. It would make navigation much easier.",
+    "label": "feature_request"
+  },
+  {
+    "text": "I'm extremely dissatisfied with my recent purchase. The product is faulty and I want a full refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to contact you for the third time and still haven't received an answer. Can you please resolve my issue?",
+    "label": "complaint"
+  },
+  {
+    "text": "I placed an order on 12th March and it still hasn't arrived. Can you check on the status?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm not happy with the customer service I've received so far. My issue has been ignored.",
+    "label": "complaint"
+  },
+  {
+    "text": "Can you please explain why I've been charged twice for the same order?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to cancel my subscription but the website isn't allowing me to do so.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've received a damaged product and I'm extremely disappointed. Please send a replacement ASAP.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been waiting for a response to my email for over a week. Can you please escalate my issue?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm unhappy with the quality of the product and would like a full refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've tried calling your customer support number multiple times but no one answers. Is there an alternative?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm experiencing issues with my account and I need assistance resolving the problem.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've received multiple incorrect orders and I want to switch to a different address.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm upset that I had to pay extra for shipping even though it was supposed to be free.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been trying to reach your customer support for days but no one has gotten back to me.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've purchased a product but I don't think it was the right one. Can you please exchange it?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm not sure why my order is missing items. Can you please help me resolve this?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm unhappy with the service I received from your company and I want to make a complaint.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've received an item that is not what I ordered. Please send a replacement or refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've tried to contact your support team multiple times but they haven't responded. Can you please help?",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #12345 was delayed for 3 weeks, despite being promised free shipping for orders over $100. I requested a refund for the shipping costs.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely dissatisfied with the quality of the product. It arrived with a scratch on the screen and looks nothing like the pictures.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been trying to cancel my subscription for weeks, but your customer support team just keeps sending automated emails. Can someone actually assist me?",
+    "label": "complaint"
+  },
+  {
+    "text": "Received a wrong item and the replacement is still pending. It's been over a month and I'm still waiting.",
+    "label": "complaint"
+  },
+  {
+    "text": "Your website crashed during checkout and I lost my order. Can you please resend it?",
+    "label": "complaint"
+  },
+  {
+    "text": "I requested a refund for my order, but it's been 10 days and I still haven't received it. What's going on?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged twice for the same order. Can you please rectify this and issue a refund for the extra amount.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to return an item that was damaged in transit, but your return policy is extremely complicated. Can you simplify it?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm getting a '404 Not Found' error when trying to access my account. Help!",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been experiencing connectivity issues with your product since day one. Is there a firmware update available?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm so frustrated with your customer support. I've been on hold for over an hour and no one has answered.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an item that's significantly cheaper than what I paid for it. Can you please explain why?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was offered a discount on my order at checkout, but it was taken off when I went to pay. Can you reinstate it?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to contact your customer support team, but the email address is not working. Is there a phone number I can call?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was told that my order would be delivered in 3-5 business days, but it's now been over a week. Can you track it for me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely dissatisfied with the customer support I've received so far. Can I speak to someone higher up?",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been trying to contact your team for weeks, but no one has responded to my emails. Can you please escalate this?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a defective product and your return policy says I have to pay for return shipping. Is that normal?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to place an order, but your website is saying that the item is out of stock. Can you please let me know when it's in stock?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged for a subscription service that I never signed up for. Can you please cancel it immediately?",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #12345 was delivered late and missing items.",
+    "label": "complaint"
+  },
+  {
+    "text": "The app crashed for the third time this week and I lost my work.",
+    "label": "complaint"
+  },
+  {
+    "text": "I requested a refund for the incorrect product I received, but it still hasn't been processed.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely frustrated with the lack of customer support on the weekends.",
+    "label": "complaint"
+  },
+  {
+    "text": "Your recent software update has caused issues with my printer.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a defective product and your return policy is unclear.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been trying to cancel my subscription for a week and the system won't let me.",
+    "label": "complaint"
+  },
+  {
+    "text": "The quality of the product has significantly decreased since my last purchase.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged twice for the same order and I need a refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the website's payment processor and it won't accept my card.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered the 'Deluxe Bundle' but it only came with the 'Basic' version.",
+    "label": "complaint"
+  },
+  {
+    "text": "The customer support team is unresponsive and took 5 days to reply.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm experiencing issues with the product's customer support tool.",
+    "label": "complaint"
+  },
+  {
+    "text": "The shipping cost was not accurately reflected on the website.",
+    "label": "complaint"
+  },
+  {
+    "text": "I returned the product but received a wrong replacement.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm unhappy with the product's performance and the lack of instructions.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was promised a discount but it wasn't applied to my order.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the product's software update and it's freezing my computer.",
+    "label": "complaint"
+  },
+  {
+    "text": "The product's durability has been a major letdown.",
+    "label": "complaint"
+  },
+  {
+    "text": "I had to contact your support team 6 times to resolve a simple issue.",
+    "label": "complaint"
+  },
+  {
+    "text": "My order #1234 was delayed by 2 weeks and I still haven't received it. What's going on?",
+    "label": "complaint"
+  },
+  {
+    "text": "Your customer support team is a disaster. I've been on hold for 45 minutes and no one answers.",
+    "label": "complaint"
+  },
+  {
+    "text": "I bought a defective product from your store and the return process is too complicated.",
+    "label": "complaint"
+  },
+  {
+    "text": "I paid $50 for a delivery that was supposed to arrive yesterday, but I haven't seen anything yet.",
+    "label": "complaint"
+  },
+  {
+    "text": "I asked for a refund on January 15th and it still hasn't been processed.",
+    "label": "complaint"
+  },
+  {
+    "text": "Your product does not match the description on the website. It's completely different.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a product but it was swapped with an entirely different item. I want a refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've tried contacting your customer support team multiple times, but no one gets back to me.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged for a product I did not order. Can you correct this ASAP?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a damaged product and your return policy is not clear. Help!",
+    "label": "complaint"
+  },
+  {
+    "text": "I need a replacement for a product that broke after a week of use. Can I get one?",
+    "label": "complaint"
+  },
+  {
+    "text": "Your shipping costs were not what I expected. Can you adjust them?",
+    "label": "complaint"
+  },
+  {
+    "text": "I bought a product in December but still haven't received it. Can you give me an update?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I ordered said it was free shipping, but I still had to pay $20.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was sent the wrong product and your customer support team is unhelpful.",
+    "label": "complaint"
+  },
+  {
+    "text": "I have a problem with my order #5678 and I need help resolving it asap.",
+    "label": "complaint"
+  },
+  {
+    "text": "The website was down when I tried to make a purchase, so I need a refund.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered multiple products but they were all delayed separately. This is ridiculous.",
+    "label": "complaint"
+  },
+  {
+    "text": "I paid for expedited shipping, but my order took a week to arrive. Can I get a refund on the shipping?",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #1234 not received despite tracking showing delivery",
+    "label": "complaint"
+  },
+  {
+    "text": "Product quality is subpar and falls short of expectations",
+    "label": "complaint"
+  },
+  {
+    "text": "Unable to use app due to constant crashes and freezes",
+    "label": "complaint"
+  },
+  {
+    "text": "Customer service rep was rude and unhelpful during last call",
+    "label": "complaint"
+  },
+  {
+    "text": "Received incorrect item in shipment, can I return it?",
+    "label": "complaint"
+  },
+  {
+    "text": "Why was my account suspended without warning or explanation?",
+    "label": "complaint"
+  },
+  {
+    "text": "Website error prevented me from completing purchase, lost funds",
+    "label": "complaint"
+  },
+  {
+    "text": "Product does not work as advertised, what can be done?",
+    "label": "complaint"
+  },
+  {
+    "text": "Billing issue: incorrect charges on my account statement",
+    "label": "complaint"
+  },
+  {
+    "text": "Failed to receive email confirmation of account update",
+    "label": "complaint"
+  },
+  {
+    "text": "Unacceptable wait time on phone call to customer support",
+    "label": "complaint"
+  },
+  {
+    "text": "Product is defective and I'm looking for a refund",
+    "label": "complaint"
+  },
+  {
+    "text": "Can't access my account due to password reset issue",
+    "label": "complaint"
+  },
+  {
+    "text": "Order cancelled without reason, want to know why",
+    "label": "complaint"
+  },
+  {
+    "text": "Item description does not match actual product, disappointing",
+    "label": "complaint"
+  },
+  {
+    "text": "Support chat conversation cut off mid-session, lost progress",
+    "label": "complaint"
+  },
+  {
+    "text": "Account balance is incorrect, showing negative funds",
+    "label": "complaint"
+  },
+  {
+    "text": "Why was I charged for shipping when it was supposed to be free?",
+    "label": "complaint"
+  },
+  {
+    "text": "Customer service representative hung up on me during call",
+    "label": "complaint"
+  },
+  {
+    "text": "Product arrived damaged, want to initiate return process",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #12345 was not delivered on time. It was supposed to arrive 5 days ago.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely dissatisfied with my recent purchase. The product was damaged upon arrival.",
+    "label": "complaint"
+  },
+  {
+    "text": "Why is my account still pending after 3 days? I provided all required documents.",
+    "label": "complaint"
+  },
+  {
+    "text": "I asked for a refund on January 10th but still haven't received it.",
+    "label": "complaint"
+  },
+  {
+    "text": "The item I ordered is not as described in the product description.",
+    "label": "complaint"
+  },
+  {
+    "text": "I tried calling your customer support number but no one picked up.",
+    "label": "complaint"
+  },
+  {
+    "text": "Your website claimed the product was in stock, but it's out of stock now.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble logging into my account. The password and username I provided are correct.",
+    "label": "complaint"
+  },
+  {
+    "text": "I want to return this product, but the return policy seems unclear.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an order with a wrong item, and now I have to pay for return shipping.",
+    "label": "complaint"
+  },
+  {
+    "text": "The customer support chat didn't resolve my issue. Can I get a call back?",
+    "label": "complaint"
+  },
+  {
+    "text": "My order status says 'shipped' but I haven't received it yet.",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I purchased is not working as expected.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm unhappy with the quality of your product. It broke after one use.",
+    "label": "complaint"
+  },
+  {
+    "text": "I need help with exchanging my defective product for a new one.",
+    "label": "complaint"
+  },
+  {
+    "text": "I want to cancel my order, but the deadline to cancel has passed.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the payment process on your website.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a duplicate order. Can you please cancel the incorrect one?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged for an item I didn't order. Can you please refund the amount?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I purchased is missing a key component. Can I get a replacement?",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #12345 was supposed to be shipped on time, but it's been 7 days and I still haven't received it. Where is my package?",
+    "label": "complaint"
+  },
+  {
+    "text": "The website is not working properly on my mobile phone. It keeps freezing and I can't complete my purchase.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received the wrong item in my order, it's a different brand and color than what I selected. How do I get the correct item?",
+    "label": "complaint"
+  },
+  {
+    "text": "I cancelled my subscription 3 months ago but I'm still being charged. Can you please stop the charges?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to return a defective product, but the return shipping label isn't working. Can you please help me?",
+    "label": "complaint"
+  },
+  {
+    "text": "The customer service representative I spoke to was rude and unhelpful. I want to speak to a supervisor.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an email saying my order was cancelled, but the order was never cancelled. Can you please investigate?",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been waiting for a response to my email for a week. Can you please check on the status of my issue?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I received is damaged and I want a replacement or a refund. Can you please assist me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the login process on the website. It keeps saying my password is incorrect even though I know it's right.",
+    "label": "complaint"
+  },
+  {
+    "text": "The delivery date was 5 days ago, but my order hasn't arrived yet. What's going on?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to use a promo code, but it's not working. Can you please check if it's valid?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a defective product and the return policy says it's not returnable. That's ridiculous. Can you please help me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the payment process on the website. It keeps saying there's an error.",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I received is not what I ordered. The description was completely different on the website.",
+    "label": "complaint"
+  },
+  {
+    "text": "I want to cancel my order, but the cancellation button isn't working. Can you please help me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to contact you about a problem with my order, but the contact form isn't working.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an order but it was incomplete. It was missing 2 items. Can you please send them to me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been charged twice for the same order. Can you please refund the extra amount?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the app. It keeps crashing and I can't use it. Can you please help me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a damaged product in my latest order. The screen is cracked and it's unusable. Can I get a replacement or refund?",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been charged twice for my subscription. I only paid once last week. Please fix the issue as soon as possible.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely disappointed with the customer service I received from your team. I was on hold for over an hour and my issue wasn't resolved.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a product that said it was 'in stock' but when I received it, it was actually out of stock. Now I have to wait even longer for delivery.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble logging into my account. Every time I try to login, it says my password is incorrect when I'm sure it's right.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a defective product that doesn't work as advertised. I want a replacement or refund, and I want it now.",
+    "label": "complaint"
+  },
+  {
+    "text": "The shipping time for my order was supposed to be 3-5 days, but it's been over a week and I still haven't received it.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having issues with the payment method you provided. It keeps saying 'invalid card' even though my card is fine.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely frustrated with the quality of the product I received. It's not what I expected at all.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged for a product I didn't order. I think someone hacked my account. Please fix this ASAP.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a product that was supposed to be delivered to my doorstep, but it was delivered to my neighbor's house instead.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was on hold for over 2 hours and the customer service rep hung up on me. Unacceptable service.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an incorrect item instead of the one I ordered. Now I have to return it and wait for the correct one.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to cancel my subscription, but the website isn't letting me. Please help me.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been having trouble with the product since I got it. The battery life is terrible and it keeps freezing.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely dissatisfied with the customer service I received from your team. No one seems to know what they're doing.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an email saying my order was cancelled, but I don't know why it was cancelled. Can you please tell me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a product that said it was 'free shipping' but when I got the bill, I saw a shipping fee. That's not what I agreed to.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to contact customer support for my issue, but no one is answering. I've been trying for hours.",
+    "label": "complaint"
+  },
+  {
+    "text": "Order #12345 has not been delivered yet, as per the tracking information it was supposed to arrive 5 days ago.",
+    "label": "complaint"
+  },
+  {
+    "text": "I placed an order on Friday, but the website still says my status is 'pending payment'.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely disappointed with the quality of the product I received. It's not at all what I ordered.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was charged twice for the same order, please refund the extra amount.",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I received is defective and the return process is too complicated.",
+    "label": "complaint"
+  },
+  {
+    "text": "I paid for express shipping, but my order took 7 days to arrive.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was trying to cancel my order, but the website wouldn't let me. Now I've been charged.",
+    "label": "complaint"
+  },
+  {
+    "text": "I received a damaged product and the packaging was also torn.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble logging into my account after updating my password.",
+    "label": "complaint"
+  },
+  {
+    "text": "I didn't receive my order confirmation email.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm not happy with the customer service I've received so far.",
+    "label": "complaint"
+  },
+  {
+    "text": "I was given the wrong product size, can I exchange it?",
+    "label": "complaint"
+  },
+  {
+    "text": "The website kept crashing while I was trying to place an order.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a gift, but the recipient's address is incorrect on the order summary.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having issues with the product's warranty, can someone help me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an item that was not part of my original order.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble using the product's features, can someone explain it to me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm not satisfied with the product's customer reviews, can I get a refund?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an order with missing items, can someone send the missing items?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm experiencing technical issues with the website, it keeps freezing.",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a replacement laptop screen from your website on Monday but it still hasn't arrived. Can you please provide an update on the status?",
+    "label": "complaint"
+  },
+  {
+    "text": "I had a terrible experience with a sales representative yesterday. He was extremely rude and hung up on me when I asked for a discount.",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I received is not what I ordered. Can you please correct this and expedite the shipping?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to return an item but your website won't let me do it online. Can you please assist me over the phone?",
+    "label": "complaint"
+  },
+  {
+    "text": "Your customer service team is never available when I call. I've been waiting for 30 minutes and no one has answered yet.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely dissatisfied with the service I received from your company last week. Can you please escalate this issue?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an incorrect item in my order. Can you please send me the correct item and a return shipping label?",
+    "label": "complaint"
+  },
+  {
+    "text": "I tried to cancel my order but your website said it was too late. Can you please waive the cancellation fee?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I bought from your company is defective. Can you please provide a refund or replace it?",
+    "label": "complaint"
+  },
+  {
+    "text": "I had a problem with my product's functionality and I couldn't get any help from your customer support team. Can you please connect me with a technical specialist?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was overcharged for my order. Can you please correct this and issue a refund?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the login process on your website. Can you please provide assistance?",
+    "label": "complaint"
+  },
+  {
+    "text": "I received an email saying my order was cancelled but I never received a confirmation email. Can you please clarify this?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I bought is of poor quality. Can you please provide a replacement or refund?",
+    "label": "complaint"
+  },
+  {
+    "text": "I tried to contact your customer support team via live chat but I was disconnected. Can you please assist me via email or phone?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm extremely frustrated with the lack of communication from your company regarding my order status. Can you please provide regular updates?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm trying to return an item but your return policy is unclear. Can you please provide more information?",
+    "label": "complaint"
+  },
+  {
+    "text": "The product I received is damaged. Can you please send me a replacement or provide a refund?",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm having trouble with the payment process on your website. Can you please assist me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I was promised a free shipping code but it never arrived. Can you please send it to me?",
+    "label": "complaint"
+  },
+  {
+    "text": "I ordered a pair of shoes from your website 2 weeks ago, but I still haven't received them. Can you please look into this?",
+    "label": "complaint"
+  },
+  {
+    "text": "The customer service representative I spoke to last week told me that I had to wait 5-7 business days for my refund to process. It's been over 10 business days and I still haven't seen the refund. What's going on?",
+    "label": "complaint"
+  },
+  {
+    "text": "I paid for expedited shipping on my recent order, but it took 12 days to arrive. That's not expedited shipping. I want a refund for the difference.",
+    "label": "complaint"
+  },
+  {
+    "text": "I accidentally ordered 10 times more of the product than I needed. How do I return the extra ones?",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for my purchase if I only used it once?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the shipping estimate on your website. It says my package hasn't shipped yet, but it's been over a week.",
+    "label": "other"
+  },
+  {
+    "text": "Why can't I see my order status on the website? It keeps saying 'pending' even though I've received my order.",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a discount code for my birthday? My birthday is [insert date].",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use the product in a different way than what's shown in the instructions. Is this okay?",
+    "label": "other"
+  },
+  {
+    "text": "I ordered a bundle deal, but the items haven't arrived yet. Where are the other items?",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for my order because I just realized I don't need it anymore?",
+    "label": "other"
+  },
+  {
+    "text": "Why is the product I ordered not available for return? I need to return it.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to cancel an order I placed accidentally. Please help.",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a replacement for a damaged product? The damage was not caused by me.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to track my order, but the tracking number isn't working.",
+    "label": "other"
+  },
+  {
+    "text": "I ordered a gift for someone, but I need to change the shipping address. Can I do that?",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a discount on a future purchase for being a loyal customer?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the website. When I try to make a purchase, it says my payment method is invalid even though it's valid.",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for a product that was a gift? I don't have the receipt.",
+    "label": "other"
+  },
+  {
+    "text": "Why is the product I ordered backordered? You said it would ship within 24 hours.",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for my order because it took too long to arrive?",
+    "label": "other"
+  },
+  {
+    "text": "I tried to reach out to the customer support team via phone, but nobody answered. Can I get a callback?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use a coupon code that I got from a third-party website. Will it work?",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally ordered a product that I don't want, can I cancel my order and get a refund?",
+    "label": "other"
+  },
+  {
+    "text": "The website keeps on saying my password is incorrect even after I've typed it correctly, what can I do?",
+    "label": "other"
+  },
+  {
+    "text": "I received a damaged product, but I didn't notice it when I opened the box, is it still eligible for return?",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund on an expired product that I purchased last year?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to track my order but the tracking number doesn't seem to be working, can you help?",
+    "label": "other"
+  },
+  {
+    "text": "I need to make some changes to my account, but I'm not getting the options to do so when I log in, can you assist?",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally signed up for a subscription service, can I cancel it before I get charged again?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing some connectivity issues with your website, is there a way to troubleshoot remotely?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to report a potential security vulnerability that I've discovered on your site, how can I get in touch with the right team?",
+    "label": "other"
+  },
+  {
+    "text": "Can you help me understand how your rewards program works, I'm not clear on the points redemption system?",
+    "label": "other"
+  },
+  {
+    "text": "My order was supposed to be gift-wrapped, but the wrapping is missing, can you send it out again?",
+    "label": "other"
+  },
+  {
+    "text": "I'm looking for a specific product that's no longer available on your website, can you suggest an alternative?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a refund for a product that I've only used once, but I'm not sure if it's eligible for return?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to place an order, but the payment gateway is saying that my card has been declined, is there a problem with my payment method?",
+    "label": "other"
+  },
+  {
+    "text": "I'm a business owner looking to use your product for our company, can I get a custom quote?",
+    "label": "other"
+  },
+  {
+    "text": "Can you help me troubleshoot a product issue I'm experiencing, I've tried the troubleshooting guide but it's still not working?",
+    "label": "other"
+  },
+  {
+    "text": "I've been receiving a lot of spam emails from your company, how do I unsubscribe?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a replacement for a product that was sent to the wrong address, how do I initiate the process?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to create an account, but the sign-up process is asking for too many personal details, can you simplify the process?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to contact the customer service team via phone, but I'm only getting a voicemail, can I email you instead?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble connecting to my account after changing my password, can you guys look into it?",
+    "label": "other"
+  },
+  {
+    "text": "I want to cancel my subscription, can you please guide me through the process?",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally ordered a wrong product, can you replace it for me?",
+    "label": "other"
+  },
+  {
+    "text": "I'm getting an error message while trying to download the mobile app, what can I do?",
+    "label": "other"
+  },
+  {
+    "text": "I need help transferring my domain to a new registrar, can you provide assistance?",
+    "label": "other"
+  },
+  {
+    "text": "I've been charged twice for the same order, can you refund the extra amount?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to set up a team account, but the registration process keeps timing out, help?",
+    "label": "other"
+  },
+  {
+    "text": "Can you provide a copy of my previous invoice, I lost the receipt?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing a slow load time on your website, is it a known issue?",
+    "label": "other"
+  },
+  {
+    "text": "I requested a refund for my order, but it hasn't been processed yet, what's the holdup?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble logging into the admin panel as the site owner, password reset not working",
+    "label": "other"
+  },
+  {
+    "text": "I need help with a custom API integration, it's not working as expected, can you assist?",
+    "label": "other"
+  },
+  {
+    "text": "I wanted to know if your company offers any discounts for non-profit organizations?",
+    "label": "other"
+  },
+  {
+    "text": "I ordered a product that was supposed to arrive in 3 days, but it's been a week, can you track it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use a coupon code, but it's not being applied, what's the issue?",
+    "label": "other"
+  },
+  {
+    "text": "I'm getting a 'connection timed out' error while trying to contact support, help!",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble accessing my profile information, can you update my details?",
+    "label": "other"
+  },
+  {
+    "text": "I requested a refund for my order, but I've been getting no response from your team, what's going on?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to integrate your service with our internal CRM system, can you provide documentation?",
+    "label": "other"
+  },
+  {
+    "text": "I'm not receiving emails from your company, is there a problem with my subscription?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to cancel my subscription but the website isn't letting me, can you please help me?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a refund for an item I returned 2 weeks ago, thanks.",
+    "label": "other"
+  },
+  {
+    "text": "I've tried resetting my password but it's not working, can you reset it for me?",
+    "label": "other"
+  },
+  {
+    "text": "I wanted to inquire about the status of my order #12345, can you look into it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing a issue with the mobile app, it keeps crashing on startup.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a replacement for a faulty product I received, it's a [item name].",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to change my billing address but the system won't let me, can you assist?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with a product not working as described in the product description.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to contact you regarding a business inquiry, can you please call me back?",
+    "label": "other"
+  },
+  {
+    "text": "I've been charged twice for the same order, can you please cancel the duplicate charge?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having issues with the customer service chat system, it's not responding.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a copy of my past invoices, can you send them to me?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to report a security issue with the website, can you investigate?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to change my email address associated with my account, can you help me?",
+    "label": "other"
+  },
+  {
+    "text": "I've been trying to contact you for a week but haven't received a response, can you look into it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to request a testimonial from a former customer, can you find me one?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a bulk discount for a large order, can you assist?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to report a technical issue with the website, it's not loading on Chrome.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to request a demo for a product, can you schedule one for me?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to dispute a charge on my credit card, can you look into it?",
+    "label": "other"
+  },
+  {
+    "text": "The password reset link sent to my email is not working. It keeps saying 'link expired'.",
+    "label": "other"
+  },
+  {
+    "text": "Can you add a feature to track order delivery times?",
+    "label": "other"
+  },
+  {
+    "text": "I am trying to use your service with a VPN and it's not working.",
+    "label": "other"
+  },
+  {
+    "text": "My friend and I both have the same account and we're getting error messages saying we're logged in somewhere else.",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally upgraded to a paid plan. How do I downgrade?",
+    "label": "other"
+  },
+  {
+    "text": "I want to change my username but it's not letting me.",
+    "label": "other"
+  },
+  {
+    "text": "I have a suggestion for a new game mode in your online multiplayer game.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having issues with my subscription. It says I'm not subscribed but I know I am.",
+    "label": "other"
+  },
+  {
+    "text": "I would like to make a bulk purchase of 100 items. How do I do that?",
+    "label": "other"
+  },
+  {
+    "text": "I've been trying to reach you for 3 days but no one has contacted me back.",
+    "label": "other"
+  },
+  {
+    "text": "I'm looking for a refund for a product I returned 2 weeks ago.",
+    "label": "other"
+  },
+  {
+    "text": "I need help with setting up two-factor authentication on my account.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to report a bug in your app where sometimes it crashes when I open a specific page.",
+    "label": "other"
+  },
+  {
+    "text": "I want to change the email address associated with my account.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to troubleshoot issues with my smart home device but your website isn't helping.",
+    "label": "other"
+  },
+  {
+    "text": "I got a spam message from your automated system saying I owe money.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to know if you offer discounts for non-profit organizations.",
+    "label": "other"
+  },
+  {
+    "text": "I want to change my password but it's saying it's incorrect even though I know the old one.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having issues with the mobile app on my Android device.",
+    "label": "other"
+  },
+  {
+    "text": "I need help understanding the terms and conditions of your website.",
+    "label": "other"
+  },
+  {
+    "text": "Error message not appearing on our website's contact form",
+    "label": "other"
+  },
+  {
+    "text": "Why do your products not have a clear return policy?",
+    "label": "other"
+  },
+  {
+    "text": "How do I change my account password from my mobile device?",
+    "label": "other"
+  },
+  {
+    "text": "Your website is not available and I need to order ASAP",
+    "label": "other"
+  },
+  {
+    "text": "Can you provide a list of recommended apps for your software?",
+    "label": "other"
+  },
+  {
+    "text": "Why did my payment fail after entering the correct details?",
+    "label": "other"
+  },
+  {
+    "text": "I received a wrong item by mistake, can I return it?",
+    "label": "other"
+  },
+  {
+    "text": "What is the warranty period for your new smartwatch?",
+    "label": "other"
+  },
+  {
+    "text": "I don't understand your website's checkout process, can someone help?",
+    "label": "other"
+  },
+  {
+    "text": "How do I cancel my subscription without calling?",
+    "label": "other"
+  },
+  {
+    "text": "The website says my email address is already in use, but it's not",
+    "label": "other"
+  },
+  {
+    "text": "I'm getting frustrated with the waiting time for your support team",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for my unused subscription from last year?",
+    "label": "other"
+  },
+  {
+    "text": "I found a bug in your app that causes it to crash",
+    "label": "other"
+  },
+  {
+    "text": "Why did you send me an unsolicited promotional email?",
+    "label": "other"
+  },
+  {
+    "text": "Can I request a replacement for a damaged item without a return label?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing slow loading speeds on your website",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a copy of my order confirmation email?",
+    "label": "other"
+  },
+  {
+    "text": "I tried to reset my password but it's not working",
+    "label": "other"
+  },
+  {
+    "text": "Why won't your customer support chat let me select my language?",
+    "label": "other"
+  },
+  {
+    "text": "I've been seeing a weird error message when trying to access my account. Can you help me figure it out?",
+    "label": "other"
+  },
+  {
+    "text": "I ordered a product last week, but I still haven't received it. The tracking number says it's pending.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the website loading on my mobile device. Is there an issue on your end?",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally created a duplicate order and I need to cancel one of them. Can you assist me?",
+    "label": "other"
+  },
+  {
+    "text": "I tried to make a donation to your charity, but the payment failed. Can I try again?",
+    "label": "other"
+  },
+  {
+    "text": "I have a question about the ingredients in one of your products. Can you send me a list?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing issues with the mobile app crashing every few minutes. Can you help?",
+    "label": "other"
+  },
+  {
+    "text": "I've been getting spam emails from your company claiming I won a prize. Can you stop this?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use a coupon code that I got from a social media post, but it's not working. Can you help?",
+    "label": "other"
+  },
+  {
+    "text": "I've been charged twice for the same subscription. Can you refund the extra amount?",
+    "label": "other"
+  },
+  {
+    "text": "I'm a teacher and I'm interested in using your product in my classroom. Can you give me more information?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to download a free e-book from your website, but the link isn't working. Can you fix this?",
+    "label": "other"
+  },
+  {
+    "text": "I've been experiencing issues with the website's login system. It keeps asking me to reset my password.",
+    "label": "other"
+  },
+  {
+    "text": "The website's font size is too small for me to read comfortably. Can you make it bigger?",
+    "label": "other"
+  },
+  {
+    "text": "I've been seeing an advertisement on your website that I don't want to see. Can you remove it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble understanding the return policy for one of your products. Can you clarify?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to set up a business account, but the process is unclear. Can you walk me through it?",
+    "label": "other"
+  },
+  {
+    "text": "I've been charged a fee for shipping on an order that said it was free. Can you correct this?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble connecting my social media account to your website. Can you help me with this?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use your app but it keeps freezing on my phone. Can you help me troubleshoot?",
+    "label": "other"
+  },
+  {
+    "text": "Can you provide a refund for a product I returned 2 months ago?",
+    "label": "other"
+  },
+  {
+    "text": "I received a damaged item in the mail. How do I exchange it?",
+    "label": "other"
+  },
+  {
+    "text": "I want to know more about your company's sustainability initiatives.",
+    "label": "other"
+  },
+  {
+    "text": "I accidentally ordered the wrong size shirt. Can I change the order?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble accessing my account. My password is correct but it keeps saying it's incorrect.",
+    "label": "other"
+  },
+  {
+    "text": "I want to request a product recommendation based on my previous purchases.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use your subscription service but I don't think it's working correctly. Can you help?",
+    "label": "other"
+  },
+  {
+    "text": "I'm concerned about a product recall I read about online. Can you confirm if it affects any of your products?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to cancel my subscription but the website isn't letting me. Can you assist?",
+    "label": "other"
+  },
+  {
+    "text": "I received a promotional email but I didn't sign up for it. How do I unsubscribe?",
+    "label": "other"
+  },
+  {
+    "text": "I need to know if your products are vegan friendly.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use the app on my tablet but it keeps crashing. Can you help me troubleshoot?",
+    "label": "other"
+  },
+  {
+    "text": "I want to request a change of address for my recurring deliveries.",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing connectivity issues with the app. Can you help me resolve this?",
+    "label": "other"
+  },
+  {
+    "text": "I want to know more about your company's return policy.",
+    "label": "other"
+  },
+  {
+    "text": "I received a gift card but the code isn't working. Can you help me use it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use the app offline but it keeps asking me to log in. Can you help?",
+    "label": "other"
+  },
+  {
+    "text": "I'm concerned about a missing delivery. Can you help me track it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to use your service but it keeps asking for a credit card. Can I use a different payment method?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a refund for my cancelled subscription, but I'm not seeing the option in my account.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please provide more information about your company's involvement in a recent charity event?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble accessing my account due to a security issue with my password.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a replacement for a damaged item I received in my last order.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble understanding how to use a specific feature in your product.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please confirm whether your company offers any discounts for students?",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing a technical issue with my product and would like to schedule a repair.",
+    "label": "other"
+  },
+  {
+    "text": "I'm not liking the changes to your website and would like to see the old design return.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a copy of a receipt from my last purchase.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please provide more information about your return policy?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble understanding the details of a recent order I placed.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a complimentary upgrade to my subscription tier.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please provide a list of compatible devices for your product?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the shipping estimate for my order.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a change of address for my subscription.",
+    "label": "other"
+  },
+  {
+    "text": "I'm experiencing a problem with spam emails from your company.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please provide more information about your company's environmental policies?",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a gift card for a friend.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble navigating your website on my mobile browser.",
+    "label": "other"
+  },
+  {
+    "text": "Can you please provide more information about your company's corporate social responsibility initiatives?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the website's color scheme. It's really hard to read the text.",
+    "label": "other"
+  },
+  {
+    "text": "There was a weird notification on my account saying I won a free product, but I didn't enter any contest.",
+    "label": "other"
+  },
+  {
+    "text": "Can I change my subscription to monthly payments instead of yearly?",
+    "label": "other"
+  },
+  {
+    "text": "I'm getting an error message that says my password is incorrect, but I'm sure I typed it right.",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to cancel my order, but the button isn't working.",
+    "label": "other"
+  },
+  {
+    "text": "Can you tell me if my product will work with my specific type of phone?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having a hard time understanding the shipping times - can you explain it to me?",
+    "label": "other"
+  },
+  {
+    "text": "I bought a product that said it had free shipping, but I got charged for shipping anyway.",
+    "label": "other"
+  },
+  {
+    "text": "I was trying to use a coupon code, but it didn't work.",
+    "label": "other"
+  },
+  {
+    "text": "Can I get a refund for my product because I'm not satisfied with it?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to reset my password, but the link isn't working.",
+    "label": "other"
+  },
+  {
+    "text": "Can you tell me more about your return policy?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble with the website's mobile app - it keeps crashing.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a replacement for a product that was damaged during shipping.",
+    "label": "other"
+  },
+  {
+    "text": "Can you give me a list of all the products that are currently on sale?",
+    "label": "other"
+  },
+  {
+    "text": "I'm having a problem with the website's chat feature - it's not working for me.",
+    "label": "other"
+  },
+  {
+    "text": "Can you tell me if you have any products that are compatible with my specific needs?",
+    "label": "other"
+  },
+  {
+    "text": "I'm trying to order a gift for someone, but I'm not sure if the product will fit their needs.",
+    "label": "other"
+  },
+  {
+    "text": "I'm having trouble finding a specific product on your website.",
+    "label": "other"
+  },
+  {
+    "text": "I'd like to request a bulk order of a product for a business event.",
+    "label": "other"
+  },
+  {
+    "text": "My order was cancelled by you guys, but I never cancelled it. Can I get a refund?",
+    "label": "other"
   }
 ]

@@ -1,109 +1,114 @@
 import os
 import json
 import torch
-from datasets import Dataset
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 from transformers import (
     AutoTokenizer, 
     AutoModelForSequenceClassification, 
-    TrainingArguments, 
-    Trainer,
+    Trainer, 
+    TrainingArguments,
     DataCollatorWithPadding
 )
-from sklearn.preprocessing import LabelEncoder
+from datasets import Dataset
 
+# Constants
 MODEL_NAME = "distilbert-base-uncased"
-DATA_DIR = "section_03_classifier/data"
+DATA_FILE = "section_03_classifier/data/train.json"
 MODEL_DIR = "section_03_classifier/model"
+CATEGORIES = ["billing", "technical_issue", "feature_request", "complaint", "other"]
+LABEL2ID = {label: i for i, label in enumerate(CATEGORIES)}
+ID2LABEL = {i: label for i, label in enumerate(CATEGORIES)}
+
+def load_data():
+    """Load and preprocess data from JSON."""
+    if not os.path.exists(DATA_FILE):
+        raise FileNotFoundError(f"Data file {DATA_FILE} not found. Run generate_data.py first.")
+    
+    with open(DATA_FILE, "r") as f:
+        data = json.load(f)
+    
+    texts = [item["text"] for item in data]
+    labels = [LABEL2ID[item["label"]] for item in data]
+    return texts, labels
+
+def compute_metrics(eval_pred):
+    """Compute accuracy for validation."""
+    logits, labels = eval_pred
+    predictions = np.argmax(logits, axis=-1)
+    return {"accuracy": accuracy_score(labels, predictions)}
 
 def train():
-    print("--- Starting Classifier Training ---")
-    
-    # Load data
+    """Fine-tune DistilBERT for ticket classification."""
     try:
-        with open(os.path.join(DATA_DIR, "train.json"), "r") as f:
-            train_data = json.load(f)
-        with open(os.path.join(DATA_DIR, "test.json"), "r") as f:
-            test_data = json.load(f)
-    except FileNotFoundError:
-        print("Data files not found. Run generate_data.py first.")
-        return
+        print("Loading data...")
+        texts, labels = load_data()
+        
+        train_texts, val_texts, train_labels, val_labels = train_test_split(
+            texts, labels, test_size=0.2, random_state=42, stratify=labels
+        )
 
-    # Encode labels
-    le = LabelEncoder()
-    labels = [d["label"] for d in train_data]
-    le.fit(labels)
-    
-    num_labels = len(le.classes_)
-    id2label = {i: label for i, label in enumerate(le.classes_)}
-    label2id = {label: i for i, label in enumerate(le.classes_)}
+        print(f"Dataset sizes: Train={len(train_texts)}, Val={len(val_texts)}")
 
-    # Convert to HuggingFace Dataset
-    def format_dataset(data):
-        return Dataset.from_dict({
-            "text": [d["text"] for d in data],
-            "label": [label2id[d["label"]] for d in data]
-        })
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        
+        def tokenize_function(examples):
+            return tokenizer(examples["text"], truncation=True, padding=True)
 
-    train_ds = format_dataset(train_data)
-    test_ds = format_dataset(test_data)
+        train_dataset = Dataset.from_dict({"text": train_texts, "label": train_labels})
+        val_dataset = Dataset.from_dict({"text": val_texts, "label": val_labels})
 
-    # Tokenize
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        train_dataset = train_dataset.map(tokenize_function, batched=True)
+        val_dataset = val_dataset.map(tokenize_function, batched=True)
 
-    def preprocess_function(examples):
-        return tokenizer(examples["text"], truncation=True)
+        model = AutoModelForSequenceClassification.from_pretrained(
+            MODEL_NAME, 
+            num_labels=len(CATEGORIES),
+            id2label=ID2LABEL,
+            label2id=LABEL2ID
+        )
 
-    tokenized_train = train_ds.map(preprocess_function, batched=True)
-    tokenized_test = test_ds.map(preprocess_function, batched=True)
+        training_args = TrainingArguments(
+            output_dir="./results",
+            eval_strategy="epoch", # Changed from evaluation_strategy
+            save_strategy="epoch",
+            learning_rate=2e-5,
+            per_device_train_batch_size=16,
+            per_device_eval_batch_size=16,
+            num_train_epochs=3,
+            weight_decay=0.01,
+            logging_dir="./logs",
+            logging_steps=10,
+            load_best_model_at_end=True,
+            metric_for_best_model="accuracy",
+            report_to="none"
+        )
 
-    data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            eval_dataset=val_dataset,
+            compute_metrics=compute_metrics,
+            data_collator=DataCollatorWithPadding(tokenizer=tokenizer)
+        )
 
-    # Load Model
-    model = AutoModelForSequenceClassification.from_pretrained(
-        MODEL_NAME, 
-        num_labels=num_labels,
-        id2label=id2label,
-        label2id=label2id
-    )
+        print("Starting training...")
+        trainer.train()
 
-    # Training Arguments
-    training_args = TrainingArguments(
-        output_dir="./results",
-        learning_rate=2e-5,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
-        num_train_epochs=3,
-        weight_decay=0.01,
-        eval_strategy="epoch",
-        save_strategy="epoch",
-        load_best_model_at_end=True,
-        logging_dir='./logs',
-    )
+        print(f"Saving model to {MODEL_DIR}...")
+        model.save_pretrained(MODEL_DIR)
+        tokenizer.save_pretrained(MODEL_DIR)
+        
+        # Save labels for reference during inference
+        with open(os.path.join(MODEL_DIR, "labels.json"), "w") as f:
+            json.dump(ID2LABEL, f)
+            
+        print("Training complete.")
 
-    # Trainer
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=tokenized_train,
-        eval_dataset=tokenized_test,
-        tokenizer=tokenizer,
-        data_collator=data_collator,
-    )
-
-    trainer.train()
-
-    # Save model and tokenizer
-    if not os.path.exists(MODEL_DIR):
-        os.makedirs(MODEL_DIR)
-    
-    model.save_pretrained(MODEL_DIR)
-    tokenizer.save_pretrained(MODEL_DIR)
-    
-    # Save label encoder classes
-    with open(os.path.join(MODEL_DIR, "labels.json"), "w") as f:
-        json.dump(id2label, f)
-
-    print(f"--- Training Complete. Model saved to {MODEL_DIR} ---")
+    except Exception as e:
+        print(f"Error during training: {e}")
 
 if __name__ == "__main__":
     train()

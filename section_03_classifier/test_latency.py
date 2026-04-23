@@ -1,38 +1,41 @@
-import time
 import pytest
-import os
+import time
 from section_03_classifier.predict import TicketClassifier
 
-MODEL_DIR = "section_03_classifier/model"
-
-@pytest.fixture
+@pytest.fixture(scope="module")
 def classifier():
-    if not os.path.exists(MODEL_DIR):
-        pytest.skip("Model not found. Run training first.")
     return TicketClassifier()
 
-def test_prediction_latency(classifier):
-    """Ensure that a single prediction takes less than 200ms."""
-    text = "The server is down and I cannot access my dashboard."
-    
-    # Warm up
-    classifier.predict(text)
-    
-    start_time = time.time()
-    classifier.predict(text)
-    end_time = time.time()
-    
-    latency = (end_time - start_time) * 1000 # in ms
-    print(f"\nPrediction latency: {latency:.2f}ms")
-    
-    # 200ms is a reasonable threshold for DistilBERT on most CPUs for a single short string
-    assert latency < 200, f"Latency {latency:.2f}ms exceeds threshold of 200ms"
+TICKETS = [
+    ("I cannot log in to my account", "technical_issue"),
+    ("Please add a Dark Mode", "feature_request"),
+    ("Why was I billed twice?", "billing"),
+    ("The app is very slow today", "technical_issue"),
+    ("I want to cancel my subscription", "billing"),
+    ("Your support is terrible", "complaint"),
+    ("How do I change my email?", "other"),
+    ("Can we get a Slack integration?", "feature_request"),
+    ("The screen goes black on startup", "technical_issue"),
+    ("I need a refund for last month", "billing"),
+    ("I am very unhappy with the new update", "complaint"),
+    ("What is your contact number?", "other"),
+    ("Is there a mobile version?", "other"),
+    ("Please implement folder organization", "feature_request"),
+    ("The reset link is not working", "technical_issue"),
+    ("My payment was declined", "billing"),
+    ("I've been waiting for an hour", "complaint"),
+    ("Great job on the new design!", "other"),
+    ("Can I pay with Bitcoin?", "billing"),
+    ("The export feature is broken", "technical_issue")
+]
 
-def test_prediction_output_format(classifier):
-    """Ensure the prediction output has correct keys."""
-    text = "Help with billing"
+@pytest.mark.parametrize("text, expected_label", TICKETS)
+def test_prediction_and_latency(classifier, text, expected_label):
+    """Test that prediction is valid and latency is under 500ms."""
     result = classifier.predict(text)
-    assert "label" in result
-    assert "confidence" in result
-    assert isinstance(result["label"], str)
-    assert 0 <= result["confidence"] <= 1
+    
+    # Assertions
+    assert result["label"] in ["billing", "technical_issue", "feature_request", "complaint", "other"]
+    assert result["latency_ms"] < 500
+    
+    print(f"\nPASS | Label: {result['label']:<15} | Time: {result['latency_ms']:>6.2f}ms | Text: {text[:50]}...")

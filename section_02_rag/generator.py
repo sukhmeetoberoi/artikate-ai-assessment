@@ -1,22 +1,18 @@
 import os
 from typing import List, Dict
-from openai import OpenAI
+from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv()
 
 class Generator:
     def __init__(self):
-        self.mock_mode = os.getenv("MOCK_MODE", "False").lower() == "true"
-        if not self.mock_mode:
-            self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self.model = "gpt-4o-mini"
+        print("Initializing Groq Generator (llama3-8b-8192)...")
+        self.client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        self.model = "llama-3.1-8b-instant"
 
     def generate_answer(self, query: str, context_chunks: List[Dict]) -> str:
-        """Generate an answer (Simulated if MOCK_MODE=True)."""
-        if self.mock_mode:
-            return f"[MOCK ANSWER] Based on the provided context (found in {context_chunks[0]['filename']}), the answer to '{query}' is derived from the retrieved documents."
-
+        """Generate a real answer based on provided context chunks using Groq."""
         if not context_chunks:
             return "I don't have enough information in the provided documents to answer this question."
 
@@ -35,7 +31,7 @@ class Generator:
         user_prompt = f"Context:\n{context_text}\n\nQuestion: {query}"
 
         try:
-            print(f"Generating answer for: {query}...")
+            print(f"Generating answer using Groq for: {query}...")
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[
@@ -46,11 +42,12 @@ class Generator:
             )
             return response.choices[0].message.content
         except Exception as e:
-            print(f"Error in generation: {e}")
-            return "An error occurred while generating the answer."
+            print(f"Error in Groq generation: {e}")
+            return "An error occurred while generating the answer using Groq."
 
 if __name__ == "__main__":
     # Test generation
     gen = Generator()
     test_context = [{"text": "The notice period is 30 days.", "filename": "test.pdf", "page": 1}]
+    # Note: Requires GROQ_API_KEY
     print(gen.generate_answer("What is the notice period?", test_context))

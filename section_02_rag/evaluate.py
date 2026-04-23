@@ -37,14 +37,21 @@ def run_evaluation():
         match_info = "Fail"
         
         # Check if any of the top-3 chunks contain the keywords and come from the right doc
-        for chunk_meta, score in retrieval_results:
-            text = chunk_meta["text"].lower()
+        for i, (chunk_meta, score) in enumerate(retrieval_results):
+            # Normalize whitespace to handle line breaks in PDF extraction
+            text = " ".join(chunk_meta["text"].split())
+            print(f"  Chunk {i+1} (Score: {score:.4f}): {text}")
             if chunk_meta["filename"] == source_doc:
-                # Check if all keywords are present (simple keyword check)
-                if all(kw.lower() in text for kw in expected_keywords):
+                # Check if all keywords are present (case-insensitive)
+                if all(kw.lower() in text.lower() for kw in expected_keywords):
                     found_keywords = True
                     match_info = f"Pass (Found in {source_doc})"
                     break
+        else:
+            if not retrieval_results:
+                print("  No chunks retrieved!")
+            else:
+                print(f"  Keywords {expected_keywords} not found in top-3 results for {source_doc}")
         
         if found_keywords:
             correct_count += 1
