@@ -1,19 +1,30 @@
-Create a file called README.md at the root of the project 
-and write exactly this content inside it, nothing more, 
-nothing less:
+Paste this into Cursor/Antigravity:
+Rewrite the README.md file at the root of the project.
+Make it professional and well formatted using proper markdown.
+Use proper markdown syntax throughout:
+- Use triple backticks for ALL code blocks and commands
+- Use proper headers with # ## ###
+- Use tables where needed
+- Use bullet points for lists
+- Make sure every terminal command is inside a code block
 
+Write exactly this content with proper markdown formatting:
+Then paste this content after it:
 # Artikate AI Assessment
-## AI / ML / LLM Engineer — Technical Submission
+### AI / ML / LLM Engineer — Technical Submission
 
 ---
 
-## Quick Setup (under 5 minutes)
+## 🚀 Quick Setup
 
-### Step 1 — Clone the repository
+### 1. Clone the repository
+```bash
 git clone <your-repo-url>
 cd artikate-ai-assessment
+```
 
-### Step 2 — Create virtual environment
+### 2. Create virtual environment
+```bash
 python -m venv venv
 
 # Mac/Linux
@@ -21,224 +32,212 @@ source venv/bin/activate
 
 # Windows
 venv\Scripts\activate
+```
 
-### Step 3 — Install dependencies
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-### Step 4 — Configure API keys
+### 4. Configure API key
+```bash
 cp .env.example .env
-
-Open .env and add your key:
+```
+Open `.env` and add:
+```
 GROQ_API_KEY=your_groq_api_key_here
-
-Get a free Groq API key at: https://console.groq.com
-
-No paid API keys required. All embedding and classification
-models run locally after first download.
+```
+> Get a free Groq API key at: https://console.groq.com
+> No credit card required
 
 ---
 
-## Section 01 — Diagnosis Log
-No code required. All written answers are in ANSWERS.md.
-Covers three production failures: pricing hallucination,
-language switching, and latency degradation.
+## 📁 Project Structure
+
+```
+artikate-ai-assessment/
+├── README.md                        
+├── DESIGN.md                        # RAG architecture decisions
+├── ANSWERS.md                       # Written answers all sections
+├── requirements.txt                 
+├── .env.example                     
+├── .gitignore                       
+├── section_01_diagnosis/
+│   └── answers.md                   # Diagnosis log + post-mortem
+├── section_02_rag/
+│   ├── pipeline.py                  # Main RAG interface
+│   ├── ingest.py                    # PDF loading + chunking
+│   ├── retriever.py                 # FAISS vector store
+│   ├── generator.py                 # Groq LLM generation
+│   ├── hallucination_guard.py       # Confidence + refusal
+│   ├── evaluate.py                  # Evaluation harness
+│   ├── eval_questions.json          # 10 Q&A pairs
+│   ├── data/                        # 3 sample legal PDFs
+│   └── vector_store/                # FAISS index (auto-generated)
+├── section_03_classifier/
+│   ├── train.py                     # DistilBERT fine-tuning
+│   ├── predict.py                   # Single ticket inference
+│   ├── evaluate.py                  # Metrics + confusion matrix
+│   ├── generate_data.py             # Synthetic data via Groq
+│   ├── test_latency.py              # pytest latency assertions
+│   └── data/
+│       ├── train.json               # 1000 synthetic examples
+│       └── test.json                # 100 manually written examples
+└── section_04_design/
+    └── answers.md                   # Q-A and Q-C written answers
+```
 
 ---
 
-## Section 02 — RAG Pipeline
+## 📊 Results Summary
 
-Run in this exact order:
+| Section | Metric | Result |
+|---|---|---|
+| 02 RAG Pipeline | Precision@3 | ✅ 1.00 |
+| 02 RAG Pipeline | Hallucination refusal | ✅ Working |
+| 03 Classifier | Overall Accuracy | ✅ 0.73 |
+| 03 Classifier | Latency test | ✅ 20/20 passed |
+| 03 Classifier | Avg inference time | ✅ under 200ms |
 
+---
+
+## 🔍 Section 02 — RAG Pipeline
+
+### How to run
+
+```bash
+# Step 1 — Create sample PDFs and build vector store
 python -m section_02_rag.ingest
-This creates 3 sample legal PDFs and builds the FAISS 
-vector store using all-MiniLM-L6-v2 embeddings locally.
 
+# Step 2 — Run demo queries
 python -m section_02_rag.pipeline
-This runs 3 demo queries and prints answer, source, 
-and confidence for each.
 
+# Step 3 — Run evaluation harness
 python -m section_02_rag.evaluate
-This runs the 10-question evaluation harness and prints
-the final precision@3 score.
+```
 
-Expected output from pipeline:
+### Expected output — pipeline
+```
 Question: What is the notice period in the NDA with TechCorp?
 Answer: The notice period is 30 days written notice.
 Source: sample_doc_1.pdf | Page 1
 Confidence: 0.85
+```
 
-Expected output from evaluate:
+### Expected output — evaluate
+```
 FINAL PRECISION@3: 1.00
+```
 
-Models used:
-- Embeddings: all-MiniLM-L6-v2 runs fully locally, no API needed
-- Generation: llama3-8b-8192 via Groq API
+### Models used
+| Task | Model |
+|---|---|
+| Embeddings | all-MiniLM-L6-v2 (runs locally, no API) |
+| Generation | llama3-8b-8192 via Groq API |
 
 ---
 
-## Section 03 — Ticket Classifier
+## 🤖 Section 03 — Ticket Classifier
 
-Run in this exact order:
+### How to run
 
+```bash
+# Step 1 — Generate synthetic training data
 python -m section_03_classifier.generate_data
-Generates 1000 synthetic training examples using Groq API,
-200 per class, saved to section_03_classifier/data/train.json
 
+# Step 2 — Fine-tune DistilBERT (15-30 minutes)
 python -m section_03_classifier.train
-Fine-tunes DistilBERT for 3 epochs on the training data.
-Takes 15 to 30 minutes on CPU. Saves model to 
-section_03_classifier/model/
 
+# Step 3 — Evaluate classifier
 python -m section_03_classifier.evaluate
-Runs inference on 100 manually written test examples.
-Prints accuracy, per-class F1, confusion matrix, and
-the two most confused class pairs.
 
+# Step 4 — Run latency assertion test
 pytest section_03_classifier/test_latency.py
-Runs 20 latency assertion tests. Each test asserts that
-prediction is one of 5 valid labels and completes under 500ms.
+```
 
-Expected output from evaluate:
+### Expected output — evaluate
+```
 Overall Accuracy: 0.73
-billing F1: 0.88
-technical_issue F1: 0.56
-feature_request F1: 0.77
-complaint F1: 0.77
-other F1: 0.62
-Top confused pair 1: technical_issue misclassified as feature_request 5 times
-Top confused pair 2: complaint misclassified as technical_issue 5 times
 
-Expected output from latency test:
+Per-class F1:
+  billing             0.88
+  technical_issue     0.56
+  feature_request     0.77
+  complaint           0.77
+  other               0.62
+
+Top confused pairs:
+  technical_issue → feature_request : 5 times
+  complaint → technical_issue       : 5 times
+```
+
+### Expected output — latency test
+```
 20 passed in 8.04s
+```
 
-Models used:
-- DistilBERT fine-tuned locally, no API needed after training
-
----
-
-## Section 04 — Systems Design
-No code required. Written answers for Question A and 
-Question C are in ANSWERS.md.
-Question A covers 5 prompt injection techniques and mitigations.
-Question C covers on-premise LLM deployment on 2x A100 80GB GPUs
-with VRAM calculations and vLLM serving configuration.
+### Models used
+| Task | Model |
+|---|---|
+| Classifier | DistilBERT fine-tuned locally (no API needed) |
+| Data generation | llama3-8b-8192 via Groq API |
 
 ---
 
-## Project Structure
+## ✍️ Section 01 and Section 04
 
-artikate-ai-assessment/
-├── README.md
-├── DESIGN.md
-├── ANSWERS.md
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── section_01_diagnosis/
-│   └── answers.md
-├── section_02_rag/
-│   ├── pipeline.py
-│   ├── ingest.py
-│   ├── retriever.py
-│   ├── generator.py
-│   ├── hallucination_guard.py
-│   ├── evaluate.py
-│   ├── eval_questions.json
-│   ├── data/
-│   │   ├── sample_doc_1.pdf
-│   │   ├── sample_doc_2.pdf
-│   │   └── sample_doc_3.pdf
-│   └── vector_store/
-├── section_03_classifier/
-│   ├── train.py
-│   ├── predict.py
-│   ├── evaluate.py
-│   ├── generate_data.py
-│   ├── test_latency.py
-│   └── data/
-│       ├── train.json
-│       └── test.json
-└── section_04_design/
-    └── answers.md
+No code required for these sections.
+
+- **Section 01** — Diagnosis log for 3 production failures
+  and a non-technical post-mortem → see `ANSWERS.md`
+- **Section 04** — Prompt injection mitigations (Question A)
+  and on-premise LLM deployment (Question C) → see `ANSWERS.md`
+- **DESIGN.md** — Full RAG architecture reasoning covering
+  chunking strategy, embedding model, vector store choice,
+  retrieval strategy, hallucination mitigation, and scaling plan
 
 ---
 
-## Results Summary
+## 🔑 API Keys
 
-Section 02 RAG Pipeline
-Precision@3 Score: 1.00
-Hallucination refusal: working, tested with out-of-scope query
+| Key | Purpose | Get it free |
+|---|---|---|
+| `GROQ_API_KEY` | RAG generation + data generation | [console.groq.com](https://console.groq.com) |
 
-Section 03 Classifier
-Overall Accuracy: 0.73
-Latency test: 20 out of 20 passed under 500ms
-Average inference time: under 200ms on CPU
+> No paid APIs required. Embeddings and classification run locally.
 
 ---
 
-## API Keys Required
+## ⚙️ Key Design Decisions
 
-GROQ_API_KEY
-Used for: RAG generation and synthetic data generation
-Get it free at: https://console.groq.com
-No credit card required
+| Decision | Choice | Reason |
+|---|---|---|
+| Embeddings | all-MiniLM-L6-v2 | Runs locally, no API cost |
+| Vector store | FAISS | Zero infrastructure setup |
+| Chunk size | 512 tokens, 64 overlap | Preserves full legal clauses |
+| Hallucination guard | Confidence threshold 0.75 | Deterministic, no extra API call |
+| Classifier | DistilBERT fine-tuned | Meets 500ms CPU latency constraint |
 
----
-
-## Key Design Decisions
-
-Embeddings: all-MiniLM-L6-v2 runs locally with no API cost
-during ingestion or query time
-
-Vector store: FAISS chosen for zero infrastructure setup and
-local file-based persistence
-
-Chunking: 512 tokens with 64-token overlap to preserve complete
-legal clauses that span multiple sentences
-
-Hallucination mitigation: confidence-based refusal when cosine
-similarity score drops below 0.75 threshold
-
-Classifier model: DistilBERT fine-tuned locally to meet the
-500ms CPU latency constraint without any API dependency
-
-Full architecture reasoning is documented in DESIGN.md
-Full written answers for all sections are in ANSWERS.md
+> Full reasoning in `DESIGN.md`
 
 ---
 
-## Troubleshooting
+## 🛠️ Troubleshooting
 
-Error: GROQ_API_KEY not found
-Fix: Make sure your .env file exists and contains the key
-
-Error: No module named fitz
-Fix: pip install PyMuPDF
-
-Error: No module named faiss
-Fix: pip install faiss-cpu
-
-Error: No module named sentence_transformers
-Fix: pip install sentence-transformers
-
-Error: Vector store not found
-Fix: Run python -m section_02_rag.ingest first
-
-Error: Model not found in section_03_classifier/model/
-Fix: Run python -m section_03_classifier.train first
-
-Error: Rate limit from Groq
-Fix: Wait 60 seconds and try again, free tier has per-minute limits
+| Error | Fix |
+|---|---|
+| `GROQ_API_KEY not found` | Check `.env` file has real key |
+| `No module named fitz` | `pip install PyMuPDF` |
+| `No module named faiss` | `pip install faiss-cpu` |
+| `No module named sentence_transformers` | `pip install sentence-transformers` |
+| `Vector store not found` | Run `python -m section_02_rag.ingest` first |
+| `Model not found` | Run `python -m section_03_classifier.train` first |
+| `Groq rate limit error` | Wait 60 seconds, free tier has per-minute limits |
 
 ---
 
-## Notes
+## 📝 Notes
 
-The vector store directory section_02_rag/vector_store/ is 
-included in .gitignore. Run ingest.py to regenerate it locally.
-
-The model directory section_03_classifier/model/ is included 
-in .gitignore. Run train.py to regenerate it locally.
-
-No API keys, credentials, or .env files are committed 
-to this repository.
+- `section_02_rag/vector_store/` is in `.gitignore` — run `ingest.py` to regenerate
+- `section_03_classifier/model/` is in `.gitignore` — run `train.py` to regenerate  
+- No API keys or `.env` files are committed to this repository
