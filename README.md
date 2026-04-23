@@ -1,15 +1,3 @@
-Paste this into Cursor/Antigravity:
-Rewrite the README.md file at the root of the project.
-Make it professional and well formatted using proper markdown.
-Use proper markdown syntax throughout:
-- Use triple backticks for ALL code blocks and commands
-- Use proper headers with # ## ###
-- Use tables where needed
-- Use bullet points for lists
-- Make sure every terminal command is inside a code block
-
-Write exactly this content with proper markdown formatting:
-Then paste this content after it:
 # Artikate AI Assessment
 ### AI / ML / LLM Engineer — Technical Submission
 
